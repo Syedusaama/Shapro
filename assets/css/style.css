@@ -21,7 +21,7 @@ h2{
     font-weight: 800;
 }
 p{
-    color: #fff;
+    color: #051133;
     font-size: 28px;
     
 }
@@ -507,6 +507,37 @@ ul.dropdown li a:hover {
 .icon-clr{
     color: #f52d30 ;
 }
+
+/* second sec */
+.links{
+    padding: 50px 0px;
+}
+.sec-banner{
+    padding: 50px 0px;
+}
+.second-right-cont h2{
+    font-size: 57px;
+    font-weight: bold;
+    color: #051133;
+    font-family: 'jost';
+}
+.second-right-cont p{
+    font-size: 18px;
+    font-weight: 400;
+    padding: 20px 0px;
+    width: 77%;
+    line-height: 1.3;
+}
+.p-clr{
+    color: #f52d30;
+}
+
+
+
+
+
+
+
 /* main banner */
 
 /* Dropdown CSS*/
@@ -536,283 +567,6 @@ ul.dropdown li a:hover {
 
 /* Main Banner CSS */
 
-.mainBanner {
-    background-size: cover;
-    background-color: #f8f8f8;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-.first-ban{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-.ban-h1{
-    font-size: 105px;
-    font-weight: bold;
-    color: #000;
-}
-
-.ref-program{
-    background-color: #000000;
-    padding: 70px 50px;
-    line-height: 0px;    
-    text-align: center;
-
-}
-.ref-program h2{
-    color: #fff;
-    text-align: center;
-    font-size: 88px;
-    padding-top: 50px;
-    padding-bottom: 20px;
-}
-.ref-program p{
-    color: #fff;
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    font-size: 52px;
-    line-height: 58px;
-}
-.ref-btn{
-    padding: 55px 150px;
-    border-radius: 52px;
-    background-color: #e90b00;
-    color: #fff;
-    font-size: 85px;
-    font-weight: 600;
-    text-transform: uppercase;
-}
-.earn-head{
-    text-align: center;
-    padding: 40px 0px;
-}
-.earn-head h2{
-    font-size: 103px;
-    font-weight: 600;
-    color: #000;
-}
-.earn-head p{
-    font-size: 45px;
-    font-weight: 400;
-    color: #000;
-}
-.earn-desc{
-    display: flex;
-    flex-direction: row;
-    padding: 71px;
-}
-
-.earn-desc h2{
-    font-size: 70px;
-    font-weight: 600;
-    color: #000;
-}
-.earn-desc p{
-    font-size: 46px;
-    font-weight: 400;
-    color: #000;
-}
-.affiliate-work{
-    background-color: #2e2e2e;
-    padding-bottom: 50px;
-}
-.aff-elem h2{
-    text-align: center;
-    padding-top: 30px;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #fff;
-    padding-bottom: 60px;
-    color: black;
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #fff;
-}
-.aff-head h2{
-    font-size: 50px;
-    font-weight: 600;
-    color: #fff;
-    text-align: center;
-    padding: 50px 0px 80px 0px;
-}
-.aff-flex{
-    display: flex;
-    align-items: center;
-    line-height: 0px;
-}
-.aff-flex-body{
-    border: 2px solid #fff;
-    border-radius: 59px;
-}
-.aff-flex h2{
-    font-size: 124px;
-}
-.aff-flex p{
-    line-height: 27px;
-    font-size: 24px;
-}
-.aff-flex-body {
-    border: 2px solid #fff;
-    border-radius: 59px;
-    text-align: center;
-    padding: 30px 40px;
-}
-.aff-flex {
-    display: flex;
-    align-items: center;
-    line-height: 0px;
-}
-.aff-elem {
-    display: flex;
-    align-items: center;
-    gap: 60px;
-    max-width: 1650px;
-    margin-left: auto;
-    margin-right: auto;
-}
-.aff-flex img{
-    margin-top: -70px;
-}
-.hash{
-    background-color: #000;
-    padding: 50px 0px;
-}
-.hash h2{
-    color: #e90b00;
-    text-align: center;
-    font-size: 80px;
-}
-.aff-img{
-    line-height: 0px;
-}
-.aff-img img{
-    background-size: cover;
-    background-color: #f8f8f8;
-    background-position: center;
-    background-repeat: no-repeat;
-    align-items: center;
-}
-
-.container-get{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-.bg-get{
-    background-image: url(/assets/images/Referral\ Page.jpg);
-    background-size: cover;
-    background-color: #e90b00;
-    background-position: center;
-    background-repeat: no-repeat;
-    align-items: center;
-}
-.one-get h2{
-    font-size: 105px;
-    font-weight: bold;
-}
-.get-btn{
-    padding: 15px 70px;
-    border-radius: 12px;
-    background-color: #000000;
-    color: #fff;
-    font-size: 39px;
-    font-weight: 600;
-    text-decoration: none;
-}
-.get-one{
-    width: 50%;
-}
-.get-one h2{
-    font-size: 80px;
-    color: #fff;
-}
-.get-one p{
-    font-size: 50px;
-    color: #fff;
-    padding-bottom: 50px;
-}
-.get-two img{
-    margin-top: -70px;
-}
-/* accordion */
-.accordian-support-faq>li {
-    list-style: none !important;
-    padding-bottom: 25px;
-    border-bottom: 2px solid #fff;
-    margin-bottom: 25px;
-    /* box-shadow: 0 0 10px #ccc; */
-}
-.accordian-support-faq h4 {
-    font-size: 34px;
-    font-weight: 500;
-    position: relative;
-    color: #fff;
-    cursor: pointer;
-    padding-right: 25px;
-}
-.accordian-support-faq h4::after {
-    content: "+";
-    position: absolute;
-    right: 0;
-    top: 0;
-    font-weight: 300;
-  }
-  .accordian-support-faq .active h4::after {
-    transform: rotate(45deg);
-  }
-
-  .accordian-support-faq div {
-    display: none;
-  }  
-  .accordian-support-faq p {
-    font-size: 18px;
-    line-height: normal;
-    padding-top: 25px;
-    color: #fff;
-  }  
-.acc-text{
-    background-color: #000000;
-    padding: 100px 0px;
-}
-.acc-text h2{
-    font-size: 86px;
-}
-.bg-accordion{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.accordion__label, .accordion__content{
-    padding: 18px 10px;
-}
-.accordion__label{
-    display: block;
-    border-bottom: 1px solid #fff;
-    color: #ffffff;
-    font-weight: bold;
-    cursor: pointer;
-    position: relative;
-    transition: 0.1s;
-}
-.accordion__label:hover{
-    background-color: rgba(0, 0, 0, 0.1);
-}
-.accordion__content{
-    background: rgb(173, 173, 173);
-    line-height: 1.6;
-    font-size: 0.85em;
-    display: none;
-}
-
-.accordion__input{
-    display: none;
-}
-.accordion__input:checked ~ .accordion__content{
-    display: block;
-}
 /*  */
 
 
