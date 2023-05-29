@@ -91,6 +91,7 @@ h3,
 h4,
 h5,
 h6 {
+    font-family: 'jost';
     display: block;
     font-weight: normal;
 }
@@ -483,11 +484,25 @@ ul.dropdown li a:hover {
     font-family: 'jost';
 }
 .first-left-cont p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #5a5a5a;
+}
+.first-p{
     font-size: 18px;
     font-weight: 400;
     padding: 50px 0px;
-    font-family: 'Segoe UI', Roboto;
     color: #5a5a5a;
+}
+.ul-p{
+    padding: 10px 0px;
+}
+.fa-ul li{
+    padding: 15px 0px;
+}
+.fa-ul h2{
+    font-size: 21px;
+    font-weight: 500;
 }
 .icon-clr{
     color: #f52d30 ;
