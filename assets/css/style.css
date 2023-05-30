@@ -610,11 +610,38 @@ ul.dropdown li a:hover {
 
 
 /* newsletter */
+.newsletter{
+    padding: 100px 0px;
+}
 .news-left-cont h2{
     color: #262626;
     font-size: 32px;
     font-weight: bold;
     padding-bottom: 20px;
+}
+.news-right-cont h2{
+    color: #262626;
+    font-size: 32px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.news-right-cont p{
+    color: #525151;
+    font-size: 16px;
+    font-weight: normal;
+    padding-bottom: 30px;
+}
+.apple-logo{
+    background-color: #000;
+    border: 1px solid #ebebeb;
+    border-radius: 6px;
+    padding: 5px 15px;
+}
+.playstore-logo{
+    background-color: transparent;
+    border: 1px solid #ebebeb;
+    border-radius: 6px;
+    padding: 8px 15px;
 }
 .home-contact-wrap input:not([type="submit"]), .home-contact-wrap select {
     height: 40px;
