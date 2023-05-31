@@ -8,23 +8,7 @@
 
  }
   */
- * {
-    font-family: Gilory;
-    padding: 0px;
-    margin: 0px;
- }
 
-
-h2{
-    color: #fff;
-    font-size: 55px;
-    font-weight: 800;
-}
-p{
-    color: #051133;
-    font-size: 28px;
-    
-}
 ::selection {
     background: #e90b00;
     color: #fff;
@@ -91,7 +75,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'jost';
+    font-family: 'Jost';
     display: block;
     font-weight: normal;
 }
@@ -675,6 +659,16 @@ color: #fff;
 /* market policy */
 
 /* satisied */
+.bg-satisfied{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.satisfied-video{
+    width: 1200px;
+    height: 630px;
+    border-radius: 12px;
+}
 .satisfied-right-cont h2{
     font-size: 40px;
     font-weight: bold;
