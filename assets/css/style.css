@@ -663,11 +663,16 @@ color: #fff;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    padding-top: 150px;
 }
 .satisfied-video{
-    width: 1200px;
-    height: 630px;
+    /* width: 1200px;
+    height: 630px; */
     border-radius: 12px;
+    margin-bottom: -250px;
+}
+.satisfied-ban{
+    padding-top: 180px;
 }
 .satisfied-right-cont h2{
     font-size: 40px;
@@ -731,7 +736,7 @@ color: #fff;
     text-anchor: middle;
 }
 .progress .text {
-    font-size: 19px;
+    font-size: 14px;
     font-weight: bold;
     fill: #000;
     text-anchor: middle;
