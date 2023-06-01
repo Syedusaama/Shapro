@@ -382,44 +382,52 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="pricing-box">
-                <h2>Unlimited plan</h2>
-                <h3>216.99</h3>
+                <h2 class="price-h2">Unlimited plan</h2>
+                <h3 class="price-h3">216.99</h3>
                 <img src="assets/images/price-1.png" alt="">
-                <ul class="delivering-our-services">
-                    <li class="firstt">Interface Design</li>
-                    <li class="firstt">Research &amp; Sketch</li>
-                    <li class="firstt">Security Interface</li>
+                <div class="pricing-box-inner">
+                <ul class="price-ul">
+                    <li class="firstt">Support at $25/hour</li>
+                    <li class="firstt">Small social media package</li>
+                    <li class="firstt">Unlimited Fonts</li>
+                    <li class="firstt">Free Fixes &amp; Updates</li>
+                    <li class="firstt">Unlimited Fonts</li>
                 </ul>
                 <p>Plan billed annually, US$199/year</p>
-                <a href="#" class="header-btn">Get Started</a>
+                <a href="#" class="first-btn">Get Started</a>
+                </div>
                 </div>
             </div>
             <div class="col-md-4">
             <div class="pricing-box-01">
-                <h2>Unlimited plan</h2>
-                <h3>216.99</h3>
-                <img src="assets/images/price-1.png" alt="">
-                <ul class="delivering-our-services">
-                    <li class="firstt">Interface Design</li>
-                    <li class="firstt">Research &amp; Sketch</li>
-                    <li class="firstt">Security Interface</li>
+                <h2 class="price-h2">Unlimited plan</h2>
+                <h3 class="price-h3">216.99</h3>
+                <img src="assets/images/price-2.png" alt="">
+                <ul class="price-ul">
+                    <li class="second">Support at $25/hour</li>
+                    <li class="second">Small social media package</li>
+                    <li class="second">Unlimited Fonts</li>
+                    <li class="second">Free Fixes &amp; Updates</li>
+                    <li class="second">Unlimited Fonts</li>
                 </ul>
                 <p>Plan billed annually, US$199/year</p>
-                <a href="#" class="header-btn">Get Started</a>
+                <a href="#" class="second-btn">Get Started</a>
                 </div>
             </div>
             <div class="col-md-4">
             <div class="pricing-box-02">
-                <h2>Unlimited plan</h2>
-                <h3>216.99</h3>
-                <img src="assets/images/price-1.png" alt="">
-                <ul class="delivering-our-services">
-                    <li class="firstt">Interface Design</li>
-                    <li class="firstt">Research &amp; Sketch</li>
-                    <li class="firstt">Security Interface</li>
+                <h2 class="price-h2">Unlimited plan</h2>
+                <h3 class="price-h3">216.99</h3>
+                <img src="assets/images/price-3.png" alt="">
+                <ul class="price-ul">
+                    <li class="third">Support at $25/hour</li>
+                    <li class="third">Small social media package</li>
+                    <li class="third">Unlimited Fonts</li>
+                    <li class="third">Free Fixes &amp; Updates</li>
+                    <li class="third">Unlimited Fonts</li>
                 </ul>
                 <p>Plan billed annually, US$199/year</p>
-                <a href="#" class="header-btn">Get Started</a>
+                <a href="#" class="third-btn">Get Started</a>
                 </div>
             </div>
         </div>

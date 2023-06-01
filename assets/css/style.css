@@ -1282,6 +1282,108 @@ color: #fff;
 .pricing-box-02{
     background-image: linear-gradient(to bottom, #fff6e1, #ebf5e1, #d9f3e8, #cfeef1, #d0e7f5);
 }
+
+.price-h2{
+    font-size: 35px;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+}
+.price-h3{
+    font-size: 43px;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+}
+.pricing-box-inner{
+    padding: 20px 75px;
+}
+.price-ul{
+    --icon-space: 1.3em;
+    list-style: none;
+    padding: 0;
+}
+.firstt{
+    padding-left: var(--icon-space);
+    padding-bottom: 15px;
+}
+.firstt:before {
+    content: "\f058"; /* FontAwesome Unicode */
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: calc( var(--icon-space) * -1 );
+    width: var(--icon-space);
+    color: #652dc2;
+}
+.first-btn{
+    background-color: #68bafd;
+    padding: 15px 35px;
+    /* font-family: 'jost'; */
+    text-align: center;
+    transition: 0.5s;
+    color: #fff;
+    box-shadow: 0 0 20px #eee;
+    border: 1px solid #68bafd;
+    border-radius: 40px;
+}
+.first-btn:hover{
+    background-color: transparent;
+    color: #68bafd;
+}
+.second{
+    padding-left: var(--icon-space);
+    padding-bottom: 15px;
+}
+.second:before {
+    content: "\f058"; /* FontAwesome Unicode */
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: calc( var(--icon-space) * -1 );
+    width: var(--icon-space);
+    color: #48cb30;
+}
+.second-btn{
+    background-color: #48cb30;
+    padding: 15px 35px;
+    /* font-family: 'jost'; */
+    text-align: center;
+    transition: 0.5s;
+    color: #fff;
+    box-shadow: 0 0 20px #eee;
+    border: 1px solid #48cb30;
+    border-radius: 40px;
+}
+.second-btn:hover{
+    background-color: transparent;
+    color: #48cb30;
+}
+.third{
+    padding-left: var(--icon-space);
+    padding-bottom: 15px;
+}
+.third:before {
+    content: "\f058"; /* FontAwesome Unicode */
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: calc( var(--icon-space) * -1 );
+    width: var(--icon-space);
+    color: #f8ba28;
+}
+.third-btn{
+    background-color: #f8ba28;
+    padding: 15px 35px;
+    /* font-family: 'jost'; */
+    text-align: center;
+    transition: 0.5s;
+    color: #fff;
+    box-shadow: 0 0 20px #eee;
+    border: 1px solid #f8ba28;
+    border-radius: 40px;
+}
+.third-btn:hover{
+    background-color: transparent;
+    color: #f8ba28;
+}
 /* princing */
 
 
