@@ -167,3 +167,13 @@ var forEach = function (array, callback, scope) {
       value.querySelector('.value').innerHTML = percent + '%';
     });
   }
+
+  $(".animated-progress span").each(function () {
+    $(this).animate(
+      {
+        width: $(this).attr("data-progress") + "%",
+      },
+      1000
+    );
+    $(this).text($(this).attr("data-progress") + "%");
+  });  

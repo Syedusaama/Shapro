@@ -523,13 +523,13 @@
 <!-- digital marketing -->
 <section class="digital-marketing"  style="background-image: url(assets/images/bg-digital.png);">
     <div class="container">
-        <div class="row">
+        <div class="row align-items-center">
             <div class="col-md-6">
-            <div class="sec-heading">
+            <div class="digital-heading">
                     <h2>Delivering Our Services</h2>
                     <p>We develop the relationships that underpin the next phase in your organisation’s growth. We do this by discerning the people and that platforms where interests converge.</p>
                     <ul class="delivering-our-services">
-                        <li><i class="fa-solid fa-check"></i> Mectetur adipisicing elit, sed do eiusmod tempor</li>
+                        <li><i class="fa-solid fa-check"></i>Mectetur adipisicing elit, sed do eiusmod tempor</li>
                         <li><i class="fa-solid fa-check"></i> Mectetur adipisicing elit, sed do eiusmod tempor</li>
                     </ul>
                     <a href="#" class="header-btn">Get Started</a>    
@@ -541,9 +541,35 @@
                         <img src="assets/images/pink-box.png" alt="">
                     </div>
             </div>
-            <div class="row">
-                <div class="col-md-3"></div>
-                <div class="col-md-9"></div>
+            <div class="row align-items-center">
+                <div class="col-md-2 progress-img">
+                    <img src="assets/images/progress1.png" alt="">
+                </div>
+                <div class="col-md-10">
+                <div class="animated-progress progress-blue">
+                    <span data-progress="90"></span>
+                </div>
+                </div>
+            </div>
+            <div class="row align-items-center progress-img">
+                <div class="col-md-2">
+                    <img src="assets/images/progress2.png" alt="">
+                </div>
+                <div class="col-md-10">
+                <div class="animated-progress progress-green">
+                    <span data-progress="60"></span>
+                </div>
+                </div>
+            </div>
+            <div class="row align-items-center progress-img">
+                <div class="col-md-2">
+                    <img src="assets/images/progress3.png" alt="">
+                </div>
+                <div class="col-md-10">
+                <div class="animated-progress progress-purple">
+                    <span data-progress="70"></span>
+                </div>
+                </div>
             </div>
         </div>
     </div>

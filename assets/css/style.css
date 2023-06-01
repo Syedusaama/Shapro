@@ -1499,6 +1499,57 @@ color: #fff;
     color: #ff5f63;
 }
 
+.animated-progress {
+    width: 88%;
+    height: 15px;
+    border-radius: 16px;
+    /* margin: 20px 10px; */
+    background-color:#555149;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .animated-progress span {
+    height: 100%;
+    display: block;
+    width: 0;
+    color: rgb(255, 251, 251);
+    position: absolute;
+    text-align: end;
+    padding-right: 5px;
+  }
+  
+  .progress-blue span {
+    background-color: #d10b4b;
+  }
+  .progress-green span {
+    background-color: #8e8df4;
+  }
+  .progress-purple span {
+    background-color: #fbc85a;
+  }
+.progress-img{
+    text-align: right;
+}
+.digital-heading h2{
+    font-size: 55px;
+    font-weight: bold;
+    color: #fff;
+}
+.digital-heading p{
+    font-size: 18px;
+    font-weight: 400;
+    padding: 20px 0px;
+    line-height: 1.3;
+    color: #d9d9da;
+}   
+.first{
+    color: #d9d9da;
+    padding-bottom: 15px;
+}
+.first i{
+    color: #ef3046;
+}
 /* main banner */
 
 
