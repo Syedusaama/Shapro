@@ -1034,6 +1034,7 @@ color: #fff;
 .service-items {
     font-size: 0;
     margin: 0 -15px;
+    padding-top: 50px;
 }
 
 .service-items>li {
@@ -1089,7 +1090,39 @@ color: #fff;
     padding-bottom: 25px;
 }
 /* services */
+/*  */
 
+.delivering-our-services{
+    --icon-space: 1.3em;
+    list-style: none;
+    padding: 0;
+}
+.firstt{
+    padding-left: var(--icon-space);
+    padding-bottom: 15px;
+}
+.firstt:before {
+    content: "\f00c"; /* FontAwesome Unicode */
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: calc( var(--icon-space) * -1 );
+    width: var(--icon-space);
+    color: #652dc2;
+  }
+
+.delivery-service-box{
+    background-color: #fff;
+    box-shadow: 0 0 10px 3px #00000014;
+    border-radius: 16px;
+    padding: 20px;
+} 
+.delivery-service-h2{
+    font-size: 18px;
+    color: #444444;
+    font-weight: bold;
+    margin-left: -10px;
+}
+/*  */
 
 /* work sec */
 .bg-work{

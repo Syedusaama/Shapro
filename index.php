@@ -163,6 +163,73 @@
 </section>
     <!-- services -->
 
+<!-- delivery-services -->
+<section class="bg-delivery-service">
+    <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-4">
+                    <div class="sec-heading">
+                    <h2>Delivering Our Services</h2>
+                    <p>We develop the relationships that underpin the next phase in your organisation’s growth. We do this by discerning the people and that platforms where interests converge.</p>
+                    <ul class="delivering-our-services">
+                        <li class="firstt">Interface Design</li>
+                        <li class="firstt">Research &amp; Sketch</li>
+                        <li class="firstt">Security Interface</li>
+                    </ul>
+                    <a href="#" class="header-btn">Get Started</a>    
+                </div>
+                </div>
+                <div class="col-md-5">
+                    <img src="assets/images/delivery-ser.png" alt="">
+                </div>
+                <div class="col-md-3">
+                    <div class=""></div>
+                <div class="container py-3">
+                    <div class="delivery-service-box">
+                    <div class="row align-items-center">
+                        <div class="col-md-3">
+                            <img src="assets/images/ontime.png" alt="">
+                        </div>
+                        <div class="col-md-9">
+                            <h2 class="delivery-service-h2">Interface design</h2>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="container py-3">
+                <div class="delivery-service-box">
+                    <div class="row align-items-center">
+                        <div class="col-md-3">
+                            <img src="assets/images/experienced.png" alt="">
+                        </div>
+                        <div class="col-md-9">
+                            <h2 class="delivery-service-h2">Creative Web Solution </h2>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div class="container py-3">
+                <div class="delivery-service-box">
+                    <div class="row align-items-center">
+                        <div class="col-md-3">
+                            <img src="assets/images/technical.png" alt="">
+                        </div>
+                        <div class="col-md-9">
+                            <h2 class="delivery-service-h2">Business Analysis</h2>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+       <!-- delivery-services -->
+
+
+
+
     <!-- work -->
 <section class="bg-work" style="background-image: url(assets/images/bg-work.png);">
     <div class="container">
@@ -207,9 +274,11 @@
             </div>
             <div class="col-md-4">
                 <div class="work-right-cont">
+                <div class="sec-heading">
                     <p class="p-clr">About Our Agency</p>   
                     <h2>Work Software With Betakit</h2>
                     <p>We develop the relationships that underpin the next phase in your organisation’s growth. We do this by discerning the people and that platforms where interests converge.</p>
+                    </div> 
                     <a href="#" class="header-btn">Get Started</a>
                 </div>
             </div>
@@ -225,10 +294,12 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-md-6">
-                        <div class="mark-policy-right-cont">
+                        <div>
+                        <div class="sec-heading">
                         <p class="p-clr">About Our Agency</p>   
                         <h2>We adopt a Market Policy  to Create a Digital Seo</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit </p>
+                        </div>
                         <a href="#" class="header-btn">Get Started</a>
                     </div>
                     </div>
