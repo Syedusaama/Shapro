@@ -530,7 +530,7 @@
                     <p>We develop the relationships that underpin the next phase in your organisation’s growth. We do this by discerning the people and that platforms where interests converge.</p>
                     <ul class="delivering-our-services">
                         <li><i class="fa-solid fa-check"></i>Mectetur adipisicing elit, sed do eiusmod tempor</li>
-                        <li><i class="fa-solid fa-check"></i> Mectetur adipisicing elit, sed do eiusmod tempor</li>
+                        <li><i class="fa-solid fa-check"></i>Mectetur adipisicing elit, sed do eiusmod tempor</li>
                     </ul>
                     <a href="#" class="header-btn">Get Started</a>    
                 </div>        
