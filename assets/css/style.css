@@ -1474,6 +1474,7 @@ color: #fff;
     padding-left: var(--icon-space);
     padding-top: 15px;
     padding-bottom: 15px;
+    font-size: 17px;
 }
 .look-first:before {
     content: "\f058"; /* FontAwesome Unicode */

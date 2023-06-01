@@ -234,7 +234,7 @@
     <!-- work -->
 <section class="bg-work" style="background-image: url(assets/images/bg-work.png);">
     <div class="container">
-        <div class="row  align-items-center">
+        <div class="row align-items-center">
             <div class="col-md-4">
                 <div class="container py-3">
                     <div class="row">
@@ -519,6 +519,41 @@
 </section>
 
 <!-- Looking For Services -->
+
+<!-- digital marketing -->
+<section class="digital-marketing"  style="background-image: url(assets/images/bg-digital.png);">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+            <div class="sec-heading">
+                    <h2>Delivering Our Services</h2>
+                    <p>We develop the relationships that underpin the next phase in your organisation’s growth. We do this by discerning the people and that platforms where interests converge.</p>
+                    <ul class="delivering-our-services">
+                        <li><i class="fa-solid fa-check"></i> Mectetur adipisicing elit, sed do eiusmod tempor</li>
+                        <li><i class="fa-solid fa-check"></i> Mectetur adipisicing elit, sed do eiusmod tempor</li>
+                    </ul>
+                    <a href="#" class="header-btn">Get Started</a>    
+                </div>        
+            </div>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-12">
+                        <img src="assets/images/pink-box.png" alt="">
+                    </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-9"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- digital marketing -->
+
+
+
 <!-- newsletter -->
 
 
