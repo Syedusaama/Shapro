@@ -166,7 +166,7 @@
 <!-- delivery-services -->
 <section class="bg-delivery-service">
     <div class="container">
-            <div class="row align-items-center">
+            <div class="row align-items-end">
                 <div class="col-md-4">
                     <div class="sec-heading">
                     <h2>Delivering Our Services</h2>
@@ -183,8 +183,8 @@
                     <img src="assets/images/delivery-ser.png" alt="">
                 </div>
                 <div class="col-md-3">
-                    <div class=""></div>
-                <div class="container py-3">
+                    <div class="delivery-right-div">
+                <div class="container">
                     <div class="delivery-service-box">
                     <div class="row align-items-center">
                         <div class="col-md-3">
@@ -196,7 +196,7 @@
                     </div>
                     </div>
                 </div>
-                <div class="container py-3">
+                <div class="container">
                 <div class="delivery-service-box">
                     <div class="row align-items-center">
                         <div class="col-md-3">
@@ -208,7 +208,7 @@
                     </div>
                 </div>
                 </div>
-                <div class="container py-3">
+                <div class="container">
                 <div class="delivery-service-box">
                     <div class="row align-items-center">
                         <div class="col-md-3">
@@ -221,9 +221,10 @@
                 </div>
                 </div>
             </div>
+            </div>
         </div>
     </div>
-    </section>
+</section>
 
        <!-- delivery-services -->
 
@@ -373,6 +374,64 @@
         </div>
     </section>
     <!-- satisfied-customer -->
+
+
+<!-- pricing -->
+<section class="bg-pricing" style="background-image: url(assets/images/pricing.png);">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="pricing-box">
+                <h2>Unlimited plan</h2>
+                <h3>216.99</h3>
+                <img src="assets/images/price-1.png" alt="">
+                <ul class="delivering-our-services">
+                    <li class="firstt">Interface Design</li>
+                    <li class="firstt">Research &amp; Sketch</li>
+                    <li class="firstt">Security Interface</li>
+                </ul>
+                <p>Plan billed annually, US$199/year</p>
+                <a href="#" class="header-btn">Get Started</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+            <div class="pricing-box-01">
+                <h2>Unlimited plan</h2>
+                <h3>216.99</h3>
+                <img src="assets/images/price-1.png" alt="">
+                <ul class="delivering-our-services">
+                    <li class="firstt">Interface Design</li>
+                    <li class="firstt">Research &amp; Sketch</li>
+                    <li class="firstt">Security Interface</li>
+                </ul>
+                <p>Plan billed annually, US$199/year</p>
+                <a href="#" class="header-btn">Get Started</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+            <div class="pricing-box-02">
+                <h2>Unlimited plan</h2>
+                <h3>216.99</h3>
+                <img src="assets/images/price-1.png" alt="">
+                <ul class="delivering-our-services">
+                    <li class="firstt">Interface Design</li>
+                    <li class="firstt">Research &amp; Sketch</li>
+                    <li class="firstt">Security Interface</li>
+                </ul>
+                <p>Plan billed annually, US$199/year</p>
+                <a href="#" class="header-btn">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+<!-- pricing -->    
       <!-- newsletter -->
 
 

@@ -1090,8 +1090,13 @@ color: #fff;
     padding-bottom: 25px;
 }
 /* services */
-/*  */
 
+
+/*delivery-service */
+.bg-delivery-service{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 .delivering-our-services{
     --icon-space: 1.3em;
     list-style: none;
@@ -1114,13 +1119,17 @@ color: #fff;
     background-color: #fff;
     box-shadow: 0 0 10px 3px #00000014;
     border-radius: 16px;
-    padding: 20px;
+    padding: 12px;
+    margin-bottom: 18px;
 } 
 .delivery-service-h2{
-    font-size: 18px;
+    font-size: 22px;
     color: #444444;
     font-weight: bold;
     margin-left: -10px;
+}
+.delivery-right-div{
+    margin-left: -109px;
 }
 /*  */
 
@@ -1257,6 +1266,29 @@ color: #fff;
     text-anchor: middle;
 }
 /* satisied */
+
+
+/* pricing */
+.bg-pricing{
+
+}
+
+.pricing-box{
+    background-image: linear-gradient(to bottom, #e6f2fc, #ddeefc, #d5eafc, #cce7fc, #c3e3fc);
+}
+.pricing-box-01{
+    background-image: linear-gradient(to bottom, #edffea, #e1fcee, #d9f8f1, #d4f3f4, #d2edf5);
+}
+.pricing-box-02{
+    background-image: linear-gradient(to bottom, #fff6e1, #ebf5e1, #d9f3e8, #cfeef1, #d0e7f5);
+}
+/* princing */
+
+
+
+
+
+
 /* main banner */
 
 
