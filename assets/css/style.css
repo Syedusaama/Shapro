@@ -1401,12 +1401,102 @@ color: #fff;
     background-color: transparent;
     color: #f8ba28;
 }
+.price-ul{
+    --icon-space: 1.3em;
+    list-style: none;
+    padding: 0;
+}
+.price-p{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.firstt{
+    padding-left: var(--icon-space);
+    padding-bottom: 20px;
+}
+.firstt:before {
+    content: "\f058"; /* FontAwesome Unicode */
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: calc( var(--icon-space) * -1 );
+    width: var(--icon-space);
+    color: #72bffd;
+}
+.first-btn{
+    background-color: #68bafd;
+    padding: 15px 35px;
+    /* font-family: 'jost'; */
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    transition: 0.5s;
+    color: #fff;
+    border: 1px solid #68bafd;
+    border-radius: 40px;
+    text-transform: uppercase;
+}
+.first-btn:hover{
+    background-color: transparent;
+    color: #68bafd;
+}
 /* princing */
 
 
-
-
-
+/* looking services */
+.looking-for-services{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.looking-services-container{
+    padding-top: 50px;
+}
+.looking-services-box{  
+    border: 2px dashed #cccccc;
+    padding: 45px;
+    width: 48%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.looking-services-ul{
+    --icon-space: 1.3em;
+    list-style: none;
+    padding: 0;
+}
+.look-service-ul{
+    color: #ff5f63;
+}
+.look-service-h2{
+    color: #333333;
+    font-size: 24px;
+    font-weight: bold;
+}
+.look-first{
+    padding-left: var(--icon-space);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.look-first:before {
+    content: "\f058"; /* FontAwesome Unicode */
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: calc( var(--icon-space) * -1 );
+    width: var(--icon-space);
+    color: #ff5f63;
+}
+.look-service-btn{
+    background-color: transparent;
+    padding: 15px 25px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    transition: 0.5s;
+    color: #ff5f63;
+    border: 2px dashed #cccccc;
+}
+.look-service-btn:hover{
+    background-color: #fff;
+    color: #ff5f63;
+}
 
 /* main banner */
 

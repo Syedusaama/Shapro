@@ -406,7 +406,7 @@
             <div class="col-md-4">
             <div class="pricing-box-01">
                 <h2 class="price-h2">Unlimited plan</h2>
-                <h3 class="price-h3">216.99</h3>
+                <h3 class="price-h3">316.99</h3>
                 <img src="assets/images/price-2.png" alt="">
                 <div class="pricing-box-inner">
                 <ul class="price-ul">
@@ -424,7 +424,7 @@
             <div class="col-md-4">
             <div class="pricing-box-02">
                 <h2 class="price-h2">Unlimited plan</h2>
-                <h3 class="price-h3">216.99</h3>
+                <h3 class="price-h3">416.99</h3>
                 <img src="assets/images/price-3.png" alt="">
                 <div class="pricing-box-inner">
                 <ul class="price-ul">
@@ -444,13 +444,82 @@
     </div>
 </section>
 
+<!-- pricing -->  
 
+<!-- Looking For Services -->
+<section class="looking-for-services">
+    <div class="container">
+    <div class="sec-heading text-center">
+        <p class="p-clr">our products make the gears</p>   
+        <h2>Looking For Services</h2>
+        </div>
+        <div class="looking-services-container">
+        <div class="row">
+            <div class="looking-services-box">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <img src="assets/images/frontend.png" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="look-service-h2">Front End Full Stack Developer</h2>
+                        <ul class="look-service-ul">
+                            <li class="look-first">6 Year Experience</li>
+                        </ul>
+                        <a href="#" class="look-service-btn">$26 Per Hour</a>
+                    </div>
+                </div>
+            </div>
+            <div class="looking-services-box">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <img src="assets/images/user-experience.png" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="look-service-h2">User Experience Design</h2>
+                        <ul class="look-service-ul">
+                            <li class="look-first">6 Year Experience</li>
+                        </ul>
+                        <a href="#" class="look-service-btn">$26 Per Hour</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="looking-services-box">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <img src="assets/images/mobile-user.png" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="look-service-h2">User Experience Designer</h2>
+                        <ul class="look-service-ul">
+                            <li class="look-first">6 Year Experience</li>
+                        </ul>
+                        <a href="#" class="look-service-btn">$26 Per Hour</a>
+                    </div>
+                </div>
+            </div>
+            <div class="looking-services-box">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <img src="assets/images/digital.png" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="look-service-h2">Digital Stratist & WebProject manager</h2>
+                        <ul class="look-service-ul">
+                            <li class="look-first">6 Year Experience</li>
+                        </ul>
+                        <a href="#" class="look-service-btn">$26 Per Hour</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</section>
 
-
-
-
-<!-- pricing -->    
-      <!-- newsletter -->
+<!-- Looking For Services -->
+<!-- newsletter -->
 
 
     <section class="newsletter">
