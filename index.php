@@ -379,6 +379,11 @@
 <!-- pricing -->
 <section class="bg-pricing" style="background-image: url(assets/images/pricing.png);">
     <div class="container">
+    <div class="sec-heading text-center">
+        <p class="p-clr">our products make the gears</p>   
+        <h2>Delivering Our Services</h2>
+        </div>
+        <div class="pricing-main-box">
         <div class="row">
             <div class="col-md-4">
                 <div class="pricing-box">
@@ -393,8 +398,8 @@
                     <li class="firstt">Free Fixes &amp; Updates</li>
                     <li class="firstt">Unlimited Fonts</li>
                 </ul>
-                <p>Plan billed annually, US$199/year</p>
-                <a href="#" class="first-btn">Get Started</a>
+                <p class="price-p">Plan billed annually, US$199/year</p>
+                <a href="#" class="first-btn">purchased now</a>
                 </div>
                 </div>
             </div>
@@ -403,6 +408,7 @@
                 <h2 class="price-h2">Unlimited plan</h2>
                 <h3 class="price-h3">216.99</h3>
                 <img src="assets/images/price-2.png" alt="">
+                <div class="pricing-box-inner">
                 <ul class="price-ul">
                     <li class="second">Support at $25/hour</li>
                     <li class="second">Small social media package</li>
@@ -410,8 +416,9 @@
                     <li class="second">Free Fixes &amp; Updates</li>
                     <li class="second">Unlimited Fonts</li>
                 </ul>
-                <p>Plan billed annually, US$199/year</p>
-                <a href="#" class="second-btn">Get Started</a>
+                <p class="price-p">Plan billed annually, US$199/year</p>
+                <a href="#" class="second-btn">purchased now</a>
+                </div>
                 </div>
             </div>
             <div class="col-md-4">
@@ -419,6 +426,7 @@
                 <h2 class="price-h2">Unlimited plan</h2>
                 <h3 class="price-h3">216.99</h3>
                 <img src="assets/images/price-3.png" alt="">
+                <div class="pricing-box-inner">
                 <ul class="price-ul">
                     <li class="third">Support at $25/hour</li>
                     <li class="third">Small social media package</li>
@@ -426,10 +434,12 @@
                     <li class="third">Free Fixes &amp; Updates</li>
                     <li class="third">Unlimited Fonts</li>
                 </ul>
-                <p>Plan billed annually, US$199/year</p>
-                <a href="#" class="third-btn">Get Started</a>
+                <p class="price-p">Plan billed annually, US$199/year</p>
+                <a href="#" class="third-btn">purchased now</a>
+                </div>
                 </div>
             </div>
+        </div>
         </div>
     </div>
 </section>
