@@ -1,28 +1,27 @@
 <header>
-    <div class="main-header">
+<!-- header -->
+<div class="main-header">
         <div class="container">
-            <div class="menu-Bar">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
             <div class="row align-items-center">
-                <div class="col-md-4 text-left">
+                <div class="col-md-3 text-left">
                     <a href="./" class="logo">
                         <img src="assets/images/logo.png" alt="">
                     </a>
                 </div>
-                <div class="col-md-8 text-right">
+                <div class="col-md-9 text-right">
                     <div class="menuWrap">
                         <ul class="menu">
-                            <li class="active"><a href="./">Home</a></li>
-                            <li><a href="#">Company</a></li>
-                            <li><a href="#">Products</a></li>
-                            <li><a href="#">Contact Us</a></li>
+                            <li class="first"><a href="#">Home</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Blogs</a></li>
+                            <li><a href="#">Contact us</a></li>
                         </ul>
+                        <a href="#" class="header-btn">Request Quote</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <!-- header -->
 </header>
