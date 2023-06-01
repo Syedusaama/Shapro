@@ -17,10 +17,12 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-md-6">
-                        <div class="first-left-cont">
+                        <div>
+                            <div class="sec-heading">
                         <h2>Now Manage  Projects Marketing</h2>
                         <p class="first-p">Aliquam malesuada bibendum arcu vitae elementum curabitur vitae ven.
                             Pellentesque pulvinar elementum habitant morbi tristique.</p>
+                            </div>
                             <ul class="fa-ul ">
                                 <li><span class="fa-li"><i class="fa-solid fa-check-circle icon-clr"></i></span><h2>Customer & Sales Growth Tracking</h2><p>Now manage your clients, business</p></li>
                                 <li><span class="fa-li"><i class="fa-solid fa-check-circle icon-clr"></i></span><h2>Create a social identity online</h2><p>We help build a strong presence</p></li>
@@ -61,12 +63,15 @@
                         <img src="assets/images/agency-img.png" alt="">
                     </div>
                     <div class="col-md-6">
-                        <div class="second-right-cont">
+                        <div >
+                        <div class="sec-heading">
                         <p class="p-clr">About Our Agency</p>   
                         <h2>Guess What  Marketing Can  Achieve</h2>
                         <p>We develop the relationships that underpin the next phase in your organisation’s growth. We do this by discerning the people and that platforms where interests converge.</p>
+                        </div>
                         <a href="#" class="header-btn">Get Started</a>
-                    </div>
+                        </div>
+                    
                     </div>
                 </div>
             </div>
@@ -77,9 +82,11 @@
     <!-- services -->
     <section class="bg-services" style="background-image: url(assets/images/bg-service.png);">
 <div class="container text-center">
-    <div class="serv-heading text-center">
+    <div >
+    <div class="sec-heading text-center">
         <p class="p-clr">Our products make the gears</p>
         <h2>Delivering Our Services</h2>
+        </div>
     </div>
     <div class="box-services showfirst">
         <ul class="service-items">

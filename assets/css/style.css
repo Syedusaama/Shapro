@@ -453,6 +453,21 @@ ul.dropdown li a:hover {
 
 /* Main Banner CSS */
 
+.sec-heading h2{
+    font-size: 55px;
+    font-weight: bold;
+    color: #051133;
+}
+.sec-heading p{
+font-size: 18px;
+    font-weight: 400;
+    padding: 20px 0px;
+    line-height: 1.3;
+}
+.sec-heading .p-clr{
+    color: #f52d30;
+}
+
 .mainBanner {
     background-size: cover;
     background-position: center;
