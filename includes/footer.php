@@ -28,9 +28,11 @@
                 <div class="col-md-4">
                     <div class="widget widget-02">
                         <h4>TWITTER FEED</h4>
+                        <div class="footer-sec-ul">
                         <ul class="fa-ul ">
                             <li><span class="fa-li"><i class="fa-brands fa-twitter ficon-clr"></i></span><h2>Commodo ultriciess</h2><p>@usertheme</p></li>
                           </ul>
+                        </div>
                           <p class="footer-para">
                             Nam ac elit a ante commodo tristique. Condimentum a vehicula a, hendrerit ac nisi Lorem ipsum dolor https://t.co/3JqlG2RTn3<br></br>
                             Sep. 29, 2017

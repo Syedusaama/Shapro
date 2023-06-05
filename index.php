@@ -530,7 +530,7 @@
             <div class="digital-heading">
                     <h2>Delivering Our Services</h2>
                     <p>We develop the relationships that underpin the next phase in your organisation’s growth. We do this by discerning the people and that platforms where interests converge.</p>
-                    <ul class="delivering-our-services">
+                    <ul class="our-services">
                         <li><i class="fa-solid fa-check"></i>Mectetur adipisicing elit, sed do eiusmod tempor</li>
                         <li><i class="fa-solid fa-check"></i>Mectetur adipisicing elit, sed do eiusmod tempor</li>
                     </ul>
@@ -581,6 +581,77 @@
 <!-- digital marketing -->
 
 <!-- services tabs-->
+<section class="bg-servicesTabs">
+    <div class="container text-center">
+    <div class="sec-heading text-center">
+        <p class="p-clr">our products make the gears</p>   
+        <h2>Powerfully-simple Apps <br>that anyone can use.</h2>
+        </div>
+    <ul class="tabnav-projects">
+            <li data-targetit="box-bme" class="active first"><a href="javascript:;">UI/UX</a></li>
+            <li data-targetit="box-rme"><a href="javascript:;">Presentation</a></li>
+            <li data-targetit="box-credit"><a href="javascript:;">Print</a></li>
+            <li data-targetit="box-service"><a href="javascript:;">Web Development</a></li>
+        </ul>
+
+        <div class="box-bme showfirst">
+            <ul class="project-items">
+                <li>
+                    <div class="project-item-box">
+                        <div class="project-item-img">
+                            <img src="assets/images/tabs-img.png" alt="">
+                        </div>
+                        <div class="project-item-body" style="background-color: #e5f9f8;">
+                            <h5>Powerfully Simple Email  Template Builder</h5>
+                            <p>Create, keep, and send email templates online without any coding 
+                            skills Make animated static website presentations </p>
+                            <ul>
+                                <li><i class="fa-solid fa-check"></i>Mectetur adipisicing elit, sed do eiusmod tempor</li>
+                                <li><i class="fa-solid fa-check"></i>Mectetur adipisicing elit, sed do eiusmod tempor</li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="project-item-box">
+                        <div class="project-item-img">
+                            <img src="assets/images/tabs-img.png" alt="">
+                        </div>
+                        <div class="project-item-body" style="background-color: #fcfaee;">
+                            <h5>Website Builder for Animated Static Webpages</h5>
+                             <p>Create, keep, and send email templates online without any coding 
+                            skills Make animated static website presentations </p> 
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="project-item-box">
+                        <div class="project-item-img">
+                            <img src="assets/images/tabs-img.png" alt="">
+                        </div>
+                        <div class="project-item-body" style="background-color: #ffeaed;">
+                            <h5>Drag & Drop Bootstrap Template Builder</h5>
+                             <p>Make animated static website presentations in a matter of minutes
+                            website presentations in a matter of minutes.</p> 
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="project-item-box">
+                        <div class="project-item-img">
+                            <img src="assets/images/tabs-img.png" alt="">
+                        </div>
+                        <div class="project-item-body" style="background-color: #f3f2fc;">
+                            <h5>Powerfully Simple Email Template Builder</h5>
+                             <p>Build website templates online using the Bootstrap builder.Build 
+                            website templates online using the Bootstrap builder. </p> 
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <a href="#" class="header-btn">Load More</a>
+    </div>
+</section>
 <!-- services tabs-->
 
 
