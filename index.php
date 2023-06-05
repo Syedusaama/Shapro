@@ -578,6 +578,53 @@
 
 <!-- digital marketing -->
 
+<!-- services tabs-->
+<!-- services tabs-->
+
+
+
+
+
+
+
+<!-- testimonials-->
+<section class="bg-testimonials" style="background-image: url(assets/images/bg-testimonial.png);">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6"></div>
+            <div class="col-md-6">
+            <div class="tab">
+  <button class="tablinks" onclick="openTab(event, 'firstTab')" id="defaultOpen">Our Values</button>
+  <button class="tablinks" onclick="openTab(event, 'secondTab')">Our Philosophy</button>
+  <button class="tablinks" onclick="openTab(event, 'thirdTab')">Our Mission</button>
+</div>
+
+<div id="firstTab" class="tabcontent">
+  <h3>Our Values</h3>
+  <p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius est notare quam littera gothica, quam nunc putamus parum claram. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum odio </p>
+</div>
+
+<div id="secondTab" class="tabcontent">
+  <h3>Our Philosophy</h3>
+  <p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius est notare quam littera gothica, quam nunc putamus parum claram. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum odio </p> 
+</div>
+
+<div id="thirdTab" class="tabcontent">
+  <h3>Our Mission</h3>
+  <p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius est notare quam littera gothica, quam nunc putamus parum claram. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum odio </p>
+</div>
+
+        </div>
+    </div>
+</section>
+
+<!-- testimonials-->
+
+
+
+
+
+
 
 
 <!-- newsletter -->
