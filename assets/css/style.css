@@ -928,7 +928,7 @@ ul.dropdown li a:hover {
     text-align: center;
     transition: 0.5s;
     color: #fff;
-    box-shadow: 0 0 20px #eee;
+    /* box-shadow: 0 0 20px #eee; */
     border: 1px solid #f52d30;
     border-radius: 4px;
 }
@@ -1571,6 +1571,7 @@ color: #fff;
 .bg-testimonials{
     padding-top: 150px;
     padding-bottom: 150px;
+    background-repeat: no-repeat;
 }
 .tab {
   float: left;
@@ -1579,24 +1580,23 @@ color: #fff;
 }
 
 .tab button {
-  display: block;
-  background-color: inherit;
-  color: #fff;
-  font-weight:bold;
-  padding: 22px 16px;
-  width: 100%;
-  border: none;
-  outline: none;
-  text-align: left;
-  cursor: pointer;
-  transition: 0.3s;
-  font-size: 17px;
-  border-radius: 4px;
+    display: block;
+    background-color: inherit;
+    color: #fff;
+    font-weight: bold;
+    border-bottom: 2px solid #fff;
+    padding: 18px 30px;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
 }
 
 .tab button:hover {
   background-color: #fff;
   color:#63b5b1;
+
 }
 
 .tab button.active {
@@ -1609,7 +1609,7 @@ color: #fff;
     padding: 40px;
     margin-left: 6px;
     box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
-    width: 70%;
+    width: 65%;
     background-color: #fff;
     border-radius: 10px;
 }
@@ -1622,30 +1622,46 @@ color: #fff;
     font-size: 17px;
     font-weight: normal;
     line-height: 1.5;
+    padding-bottom: 40px;
 }
 #secondTab h3 {
     font-size: 28px;
     font-weight: bold;
     padding-bottom: 20px;
 }
+#secondTab p {
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 1.5;
+    padding-bottom: 40px;
+}
 #thirdTab h3 {
     font-size: 28px;
     font-weight: bold;
     padding-bottom: 20px;
 }
+#thirdTab p {
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 1.5;
+    padding-bottom: 40px;
+}
+.testimonial-btn{
+    background-color: #f52d30;
+    padding: 15px 35px;
+    /* font-family: 'jost'; */
+    text-align: center;
+    transition: 0.5s;
+    color: #fff;
+    box-shadow: 0px 10px 15px 0px #ec315094;
+    border: 1px solid #f52d30;
+    border-radius: 4px;
+}
+.testimonial-btn:hover{
+    background-color: transparent;
+    color: #f52d30;
+}
 /* testimonials*/
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* main banner */
@@ -1930,145 +1946,6 @@ footer .widget h4 {
         display: none;
     }
 }
-
-/* @media (max-width: 824px) {}
-
-
-@media (max-width: 767px) {
-    .mainBanner {
-        height: 67vh;
-    }    
-    .first-ban {
-        display: flex;
-        flex-direction: column;
-        height: 67vh;
-    }
-    .ban-h1 {
-        font-size: 68px;
-        text-align: center;
-    }
-    .ref-program {
-        background-color: #000000;
-        padding: 30px 0px 30px 0px;
-    }
-    .ref-program h2 {
-        font-size: 35px;
-    }
-    .ref-program p{
-        font-size: 24px;
-        line-height: 28px;
-        padding-bottom: 25px;
-        padding-top: 25px;
-    }
-    .ref-btn{
-    padding: 25px 45px;
-    border-radius: 52px;
-    background-color: #e90b00;
-    color: #fff;
-    font-size: 30px;
-    }
-    .earn-head h2{
-        font-size: 58px;
-    }
-    .earn-head p{
-        font-size: 25px;
-    }
-    .earn-desc{
-        display: flex;
-        flex-direction: column;
-        padding: 10px 20px;
-    }
-    .earn-desc h2{
-        font-size: 35px;
-    }
-    .earn-desc p{
-        font-size: 24px;
-    }
-    .affiliate-work h2{
-        font-size: 48px;
-        padding: 25px 0px;
-    }
-    .hash h2 {
-        font-size: 50px;
-    }
-    .aff-flex {
-        width: 40%;
-    }
-    .aff-flex-body {
-        border: 2px solid #fff;
-        border-radius: 45px;
-        text-align: center;
-        padding: 15px 15px;
-    }
-    .aff-elem {
-        flex-wrap: wrap;
-        gap: 30px;
-        justify-content: center;
-    }
-    .aff-flex img {
-        margin-top: -70px;
-        max-width: 50px;
-    }
-    .aff-flex h2{
-        font-size: 55px;
-    }
-    .aff-flex p {
-        line-height: 27px;
-        font-size: 15px;
-    }
-    .get-one h2 {
-        font-size: 28px;
-    }
-    .get-one p {
-        font-size: 24px;
-        padding: 20px 0px;
-    }
-    .get-btn {
-        padding: 15px 12px;
-        font-size: 20px;
-        margin-top: 0px;
-    }
-    .get-one {
-        width: 80%;
-        padding-left: 15px;
-    }
-    .get-one p {
-        font-size: 19px;
-        margin-right: -35px;
-        padding: 20px 0px;
-    }
-    .get-btn {
-        padding: 15px 12px;
-        font-size: 14px;
-        margin-top: 0px;
-        margin-right: -35px;
-    }
-    .get-two img {
-        margin-top: -26px;
-    }
-    .bg-accordion {
-        padding: 0px 25px;
-    }
-    .accordion {
-        width: 100%;
-    }
-    .earn-desc div:nth-child(2) {
-        padding-left: 25%;
-    }
-    .earn-desc div{
-        padding: 20px 0px;
-    }
-    .earn-cont{
-        padding: 25px 0px;
-    }
-    .earn-head{
-        padding: 0px;
-    }
-    .acc-text{
-        padding: 50px 0px;
-    } */
-}
-
 
 /*  */
 

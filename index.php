@@ -602,16 +602,19 @@
 <div id="firstTab" class="tabcontent">
   <h3>Our Values</h3>
   <p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius est notare quam littera gothica, quam nunc putamus parum claram. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum odio </p>
+  <a href="#" class="testimonial-btn">$26 Per Hour</a>                      
 </div>
 
 <div id="secondTab" class="tabcontent">
   <h3>Our Philosophy</h3>
   <p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius est notare quam littera gothica, quam nunc putamus parum claram. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum odio </p> 
+  <a href="#" class="testimonial-btn">$26 Per Hour</a>
 </div>
 
 <div id="thirdTab" class="tabcontent">
   <h3>Our Mission</h3>
   <p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius est notare quam littera gothica, quam nunc putamus parum claram. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum odio </p>
+  <a href="#" class="testimonial-btn">$26 Per Hour</a>
 </div>
 
         </div>
