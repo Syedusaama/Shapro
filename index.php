@@ -582,7 +582,7 @@
 
 <!-- services tabs-->
 <section class="bg-servicesTabs">
-    <div class="container text-center">
+    <div class="container">
     <div class="sec-heading text-center">
         <p class="p-clr">our products make the gears</p>   
         <h2>Powerfully-simple Apps <br>that anyone can use.</h2>
@@ -605,10 +605,10 @@
                             <h5>Powerfully Simple Email  Template Builder</h5>
                             <p>Create, keep, and send email templates online without any coding 
                             skills Make animated static website presentations </p>
-                            <ul>
-                                <li><i class="fa-solid fa-check"></i>Mectetur adipisicing elit, sed do eiusmod tempor</li>
-                                <li><i class="fa-solid fa-check"></i>Mectetur adipisicing elit, sed do eiusmod tempor</li>
-                            </ul>
+                            <ul class="our-services">
+                        <li><i class="fa-solid fa-check"></i>Mectetur adipisicing elit, sed do eiusmod tempor</li>
+                        <li><i class="fa-solid fa-check"></i>Mectetur adipisicing elit, sed do eiusmod tempor</li>
+                    </ul>
                         </div>
                     </div>
                 </li>
@@ -649,7 +649,9 @@
                     </div>
                 </li>
             </ul>
+            <div class="tabs-btn text-center">
             <a href="#" class="header-btn">Load More</a>
+            </div>
     </div>
 </section>
 <!-- services tabs-->
