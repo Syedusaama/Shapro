@@ -581,8 +581,8 @@
 <!-- digital marketing -->
 
 <!-- services tabs-->
-<section class="bg-servicesTabs">
-    <div class="container">
+<section class="bg-servicesTabs" style="background-image: url(assets/images/bg-tabs.png);">
+    <div class="container" >
     <div class="sec-heading text-center">
         <p class="p-clr">our products make the gears</p>   
         <h2>Powerfully-simple Apps <br>that anyone can use.</h2>
@@ -605,10 +605,10 @@
                             <h5>Powerfully Simple Email  Template Builder</h5>
                             <p>Create, keep, and send email templates online without any coding 
                             skills Make animated static website presentations </p>
-                            <ul class="our-services">
-                        <li><i class="fa-solid fa-check"></i>Mectetur adipisicing elit, sed do eiusmod tempor</li>
-                        <li><i class="fa-solid fa-check"></i>Mectetur adipisicing elit, sed do eiusmod tempor</li>
-                    </ul>
+                            <ul class="tabs-ul-01">
+                            <li><i class="fa-solid fa-circle-check"></i>Drag & Drop WYSIWYG Builder</li>
+                            <li><i class="fa-solid fa-circle-check"></i>Collaborate with Teammates</li>
+                             </ul>
                         </div>
                     </div>
                 </li>
@@ -621,6 +621,10 @@
                             <h5>Website Builder for Animated Static Webpages</h5>
                              <p>Create, keep, and send email templates online without any coding 
                             skills Make animated static website presentations </p> 
+                            <ul class="tabs-ul-02">
+                            <li><i class="fa-solid fa-circle-check"></i>Drag & Drop WYSIWYG Builder</li>
+                            <li><i class="fa-solid fa-circle-check"></i>Collaborate with Teammates</li>
+                             </ul>
                         </div>
                     </div>
                 </li>
@@ -633,6 +637,10 @@
                             <h5>Drag & Drop Bootstrap Template Builder</h5>
                              <p>Make animated static website presentations in a matter of minutes
                             website presentations in a matter of minutes.</p> 
+                            <ul class="tabs-ul-03">
+                            <li><i class="fa-solid fa-circle-check"></i>Drag & Drop WYSIWYG Builder</li>
+                            <li><i class="fa-solid fa-circle-check"></i>Collaborate with Teammates</li>
+                             </ul>
                         </div>
                     </div>
                 </li>
@@ -645,6 +653,226 @@
                             <h5>Powerfully Simple Email Template Builder</h5>
                              <p>Build website templates online using the Bootstrap builder.Build 
                             website templates online using the Bootstrap builder. </p> 
+                            <ul class="tabs-ul-04">
+                            <li><i class="fa-solid fa-circle-check"></i>Drag & Drop WYSIWYG Builder</li>
+                            <li><i class="fa-solid fa-circle-check"></i>Collaborate with Teammates</li>
+                             </ul>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="tabs-btn text-center">
+            <a href="#" class="header-btn">Load More</a>
+            </div>
+    </div>
+
+    <div class="box-rme showfirst">
+            <ul class="project-items">
+                <li>
+                    <div class="project-item-box">
+                        <div class="project-item-img">
+                            <img src="assets/images/tabs-img.png" alt="">
+                        </div>
+                        <div class="project-item-body" style="background-color: #e5f9f8;">
+                            <h5>Powerfully Simple Email  Template Builder</h5>
+                            <p>Create, keep, and send email templates online without any coding 
+                            skills Make animated static website presentations </p>
+                            <ul class="tabs-ul-01">
+                            <li><i class="fa-solid fa-circle-check"></i>Drag & Drop WYSIWYG Builder</li>
+                            <li><i class="fa-solid fa-circle-check"></i>Collaborate with Teammates</li>
+                             </ul>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="project-item-box">
+                        <div class="project-item-img">
+                            <img src="assets/images/tabs-img.png" alt="">
+                        </div>
+                        <div class="project-item-body" style="background-color: #fcfaee;">
+                            <h5>Website Builder for Animated Static Webpages</h5>
+                             <p>Create, keep, and send email templates online without any coding 
+                            skills Make animated static website presentations </p> 
+                            <ul class="tabs-ul-02">
+                            <li><i class="fa-solid fa-circle-check"></i>Drag & Drop WYSIWYG Builder</li>
+                            <li><i class="fa-solid fa-circle-check"></i>Collaborate with Teammates</li>
+                             </ul>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="project-item-box">
+                        <div class="project-item-img">
+                            <img src="assets/images/tabs-img.png" alt="">
+                        </div>
+                        <div class="project-item-body" style="background-color: #ffeaed;">
+                            <h5>Drag & Drop Bootstrap Template Builder</h5>
+                             <p>Make animated static website presentations in a matter of minutes
+                            website presentations in a matter of minutes.</p> 
+                            <ul class="tabs-ul-03">
+                            <li><i class="fa-solid fa-circle-check"></i>Drag & Drop WYSIWYG Builder</li>
+                            <li><i class="fa-solid fa-circle-check"></i>Collaborate with Teammates</li>
+                             </ul>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="project-item-box">
+                        <div class="project-item-img">
+                            <img src="assets/images/tabs-img.png" alt="">
+                        </div>
+                        <div class="project-item-body" style="background-color: #f3f2fc;">
+                            <h5>Powerfully Simple Email Template Builder</h5>
+                             <p>Build website templates online using the Bootstrap builder.Build 
+                            website templates online using the Bootstrap builder. </p> 
+                            <ul class="tabs-ul-04">
+                            <li><i class="fa-solid fa-circle-check"></i>Drag & Drop WYSIWYG Builder</li>
+                            <li><i class="fa-solid fa-circle-check"></i>Collaborate with Teammates</li>
+                             </ul>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="tabs-btn text-center">
+            <a href="#" class="header-btn">Load More</a>
+            </div>
+    </div>
+
+    <div class="box-credit showfirst">
+            <ul class="project-items">
+                <li>
+                    <div class="project-item-box">
+                        <div class="project-item-img">
+                            <img src="assets/images/tabs-img.png" alt="">
+                        </div>
+                        <div class="project-item-body" style="background-color: #e5f9f8;">
+                            <h5>Powerfully Simple Email  Template Builder</h5>
+                            <p>Create, keep, and send email templates online without any coding 
+                            skills Make animated static website presentations </p>
+                            <ul class="tabs-ul-01">
+                            <li><i class="fa-solid fa-circle-check"></i>Drag & Drop WYSIWYG Builder</li>
+                            <li><i class="fa-solid fa-circle-check"></i>Collaborate with Teammates</li>
+                             </ul>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="project-item-box">
+                        <div class="project-item-img">
+                            <img src="assets/images/tabs-img.png" alt="">
+                        </div>
+                        <div class="project-item-body" style="background-color: #fcfaee;">
+                            <h5>Website Builder for Animated Static Webpages</h5>
+                             <p>Create, keep, and send email templates online without any coding 
+                            skills Make animated static website presentations </p> 
+                            <ul class="tabs-ul-02">
+                            <li><i class="fa-solid fa-circle-check"></i>Drag & Drop WYSIWYG Builder</li>
+                            <li><i class="fa-solid fa-circle-check"></i>Collaborate with Teammates</li>
+                             </ul>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="project-item-box">
+                        <div class="project-item-img">
+                            <img src="assets/images/tabs-img.png" alt="">
+                        </div>
+                        <div class="project-item-body" style="background-color: #ffeaed;">
+                            <h5>Drag & Drop Bootstrap Template Builder</h5>
+                             <p>Make animated static website presentations in a matter of minutes
+                            website presentations in a matter of minutes.</p> 
+                            <ul class="tabs-ul-03">
+                            <li><i class="fa-solid fa-circle-check"></i>Drag & Drop WYSIWYG Builder</li>
+                            <li><i class="fa-solid fa-circle-check"></i>Collaborate with Teammates</li>
+                             </ul>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="project-item-box">
+                        <div class="project-item-img">
+                            <img src="assets/images/tabs-img.png" alt="">
+                        </div>
+                        <div class="project-item-body" style="background-color: #f3f2fc;">
+                            <h5>Powerfully Simple Email Template Builder</h5>
+                             <p>Build website templates online using the Bootstrap builder.Build 
+                            website templates online using the Bootstrap builder. </p> 
+                            <ul class="tabs-ul-04">
+                            <li><i class="fa-solid fa-circle-check"></i>Drag & Drop WYSIWYG Builder</li>
+                            <li><i class="fa-solid fa-circle-check"></i>Collaborate with Teammates</li>
+                             </ul>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="tabs-btn text-center">
+            <a href="#" class="header-btn">Load More</a>
+            </div>
+    </div>
+
+    <div class="box-service showfirst">
+            <ul class="project-items">
+                <li>
+                    <div class="project-item-box">
+                        <div class="project-item-img">
+                            <img src="assets/images/tabs-img.png" alt="">
+                        </div>
+                        <div class="project-item-body" style="background-color: #e5f9f8;">
+                            <h5>Powerfully Simple Email  Template Builder</h5>
+                            <p>Create, keep, and send email templates online without any coding 
+                            skills Make animated static website presentations </p>
+                            <ul class="tabs-ul-01">
+                            <li><i class="fa-solid fa-circle-check"></i>Drag & Drop WYSIWYG Builder</li>
+                            <li><i class="fa-solid fa-circle-check"></i>Collaborate with Teammates</li>
+                             </ul>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="project-item-box">
+                        <div class="project-item-img">
+                            <img src="assets/images/tabs-img.png" alt="">
+                        </div>
+                        <div class="project-item-body" style="background-color: #fcfaee;">
+                            <h5>Website Builder for Animated Static Webpages</h5>
+                             <p>Create, keep, and send email templates online without any coding 
+                            skills Make animated static website presentations </p> 
+                            <ul class="tabs-ul-02">
+                            <li><i class="fa-solid fa-circle-check"></i>Drag & Drop WYSIWYG Builder</li>
+                            <li><i class="fa-solid fa-circle-check"></i>Collaborate with Teammates</li>
+                             </ul>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="project-item-box">
+                        <div class="project-item-img">
+                            <img src="assets/images/tabs-img.png" alt="">
+                        </div>
+                        <div class="project-item-body" style="background-color: #ffeaed;">
+                            <h5>Drag & Drop Bootstrap Template Builder</h5>
+                             <p>Make animated static website presentations in a matter of minutes
+                            website presentations in a matter of minutes.</p> 
+                            <ul class="tabs-ul-03">
+                            <li><i class="fa-solid fa-circle-check"></i>Drag & Drop WYSIWYG Builder</li>
+                            <li><i class="fa-solid fa-circle-check"></i>Collaborate with Teammates</li>
+                             </ul>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="project-item-box">
+                        <div class="project-item-img">
+                            <img src="assets/images/tabs-img.png" alt="">
+                        </div>
+                        <div class="project-item-body" style="background-color: #f3f2fc;">
+                            <h5>Powerfully Simple Email Template Builder</h5>
+                             <p>Build website templates online using the Bootstrap builder.Build 
+                            website templates online using the Bootstrap builder. </p> 
+                            <ul class="tabs-ul-04">
+                            <li><i class="fa-solid fa-circle-check"></i>Drag & Drop WYSIWYG Builder</li>
+                            <li><i class="fa-solid fa-circle-check"></i>Collaborate with Teammates</li>
+                             </ul>
                         </div>
                     </div>
                 </li>

@@ -1083,35 +1083,38 @@ ul.our-services li{
     background-color:#555149;
     overflow: hidden;
     position: relative;
-  }
-  
-  .animated-progress span {
-    height: 100%;
-    display: block;
-    width: 0;
-    color: rgb(255, 251, 251);
-    position: absolute;
-    text-align: end;
-    padding-right: 5px;
-  }
-  
-  .progress-blue span {
-    background-color: #d10b4b;
-  }
-  .progress-green span {
-    background-color: #8e8df4;
-  }
-  .progress-purple span {
-    background-color: #fbc85a;
-  }
+}
+
+.animated-progress span {
+height: 100%;
+display: block;
+width: 0;
+color: rgb(255, 251, 251);
+position: absolute;
+text-align: end;
+padding-right: 5px;
+}
+
+.progress-blue span {
+background-color: #d10b4b;
+}
+.progress-green span {
+background-color: #8e8df4;
+}
+.progress-purple span {
+background-color: #fbc85a;
+}
 .progress-img{
     text-align: right;
 }
 /* digtal */
 /* ----------------servicesTabs------------ */
+
 .bg-servicesTabs{
     padding-top: 150px;
     padding-bottom: 140px;
+    background-repeat: no-repeat;
+    background-position: top;
 }
 .projects-tab-sec {
     padding: 75px 0;
@@ -1163,55 +1166,64 @@ ul.our-services li{
     overflow: hidden;
     border-radius: 12px;
 }
-
-.project-item-box::before {
-    content: "";
-    left: 0;
-    right: 0;
-    top: 0;
-    z-index: 1;
-    position: absolute;
-    opacity: 0.65;
-    bottom: 0;
-}
-
 .project-item-img {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.project-item-img img {
-    filter: grayscale(100);
-  }
-  
-  .project-item-body {
-      position: relative;
-      z-index: 2;
-      min-height: 100px;
-      padding: 40px;
-  }
-  
-  .project-item-body h5 {
-      color: #051133;
-      font-size: 36px;
-      font-weight: bold;
-      padding-bottom: 15px;
-  }
-  
-  .project-item-body p {
-      color: #333333;
-      font-size: 16px;
-      line-height: normal;
-      padding-bottom: 25px;
-  }
-  
-  .service-what-we-do {
-      margin-top: 30px;
-      padding-top: 50px;
-      border-top: 1px solid #d3d3d3;
-      padding-bottom: 75px;
-  }
-  .icons-style{}
+
+.project-item-body {
+    z-index: 2;
+    min-height: 100px;
+    padding: 40px;
+}
+
+.project-item-body h5 {
+    color: #051133;
+    font-size: 36px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.project-item-body p {
+    color: #333333;
+    font-size: 16px;
+    line-height: normal;
+    padding-bottom: 25px;
+}
+
+ul.tabs-ul-01 li {
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+ul.tabs-ul-01 i {
+    color: #5ee1da;
+    padding-right: 8px;
+}
+ul.tabs-ul-02 li {
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+ul.tabs-ul-02 i {
+    color: #e2d584;
+    padding-right: 8px;
+}
+ul.tabs-ul-03 li {
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+ul.tabs-ul-03 i {
+    color: #fcb1bc;
+    padding-right: 8px;
+}
+ul.tabs-ul-04 li {
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+ul.tabs-ul-04 i {
+    color: #b9b1ff;
+    padding-right: 8px;
+}
 /* ----------------servicesTabs------------ */
 
 /* testimonials*/
