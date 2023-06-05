@@ -187,8 +187,8 @@
                 <div class="container">
                     <div class="delivery-service-box">
                     <div class="row align-items-center">
-                        <div class="col-md-3">
-                            <img src="assets/images/ontime.png" alt="">
+                        <div class="col-md-2">
+                            <img src="assets/images/interface.png" alt="">
                         </div>
                         <div class="col-md-9">
                             <h2 class="delivery-service-h2">Interface design</h2>
@@ -199,8 +199,8 @@
                 <div class="container">
                 <div class="delivery-service-box">
                     <div class="row align-items-center">
-                        <div class="col-md-3">
-                            <img src="assets/images/experienced.png" alt="">
+                        <div class="col-md-2">
+                            <img src="assets/images/creative.png" alt="">
                         </div>
                         <div class="col-md-9">
                             <h2 class="delivery-service-h2">Creative Web Solution </h2>
@@ -211,8 +211,8 @@
                 <div class="container">
                 <div class="delivery-service-box">
                     <div class="row align-items-center">
-                        <div class="col-md-3">
-                            <img src="assets/images/technical.png" alt="">
+                        <div class="col-md-2">
+                            <img src="assets/images/business.png" alt="">
                         </div>
                         <div class="col-md-9">
                             <h2 class="delivery-service-h2">Business Analysis</h2>
@@ -591,7 +591,34 @@
 <section class="bg-testimonials" style="background-image: url(assets/images/bg-testimonial.png);">
     <div class="container">
         <div class="row">
-            <div class="col-md-6"></div>
+            <div class="col-md-6">
+                <ul class="tesimonial-slider">
+                <li>
+                    <div class="testimonial-sec-box-main">
+                        <div class="testimonial-sec-box-main-icon">
+                            <img src="assets/images/testimonial-icon.png">
+                        </div>
+                        <div class="testimonial-sec-box-body">
+                            <p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius nunc putamus parum claram.  lius quod ii legunt saepius nunc putamus parum </p>
+                            <h2>Christina Smith</h2>
+                            <h3>Marketing Envato Pty Ltd.</h3>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="testimonial-sec-box-main">
+                        <div class="testimonial-sec-box-main-icon">
+                            <img src="assets/images/testimonial-icon.png">
+                        </div>
+                        <div class="testimonial-sec-box-body">
+                            <p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius nunc putamus parum claram.  lius quod ii legunt saepius nunc putamus parum </p>
+                            <h2>Christina Smith</h2>
+                            <h3>Marketing Envato Pty Ltd.</h3>
+                        </div>
+                    </div>
+                </li>
+                </ul>
+            </div>
             <div class="col-md-6">
             <div class="tab">
   <button class="tablinks" onclick="openTab(event, 'firstTab')" id="defaultOpen">Our Values</button>
@@ -622,7 +649,15 @@
 </section>
 
 <!-- testimonials-->
-
+<div class="links">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <img src="assets/images/links-footer.png" alt="">
+                </div>
+    </div>
+    </div>
+    </div>
 
 
 

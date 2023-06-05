@@ -77,11 +77,13 @@ $(document).ready(function() {
         });
     });
 
-    $(".index-slider").slick({
-        dots: false,
+    $(".tesimonial-slider").slick({
+        dots: true,
         infinite: true,
         speed: 300,
-        slidesToShow: 1
+        slidesToShow: 1,
+        arrows: false,
+        fade: true,
             // prevArrow: $('.prev'),
             // nextArrow: $('.next')
     });
