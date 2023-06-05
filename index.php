@@ -329,7 +329,7 @@
         </div>
     </section>
     <section class="satisfied-ban">
-        <div class="sec-banner">
+        <div>
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-md-6">

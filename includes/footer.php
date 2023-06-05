@@ -70,7 +70,7 @@
                 <div class="copyright text-center">
                     <div class="container">
                         <p>
-                            Copyright © 2020 shapro - All Rights Reserved. Made by userthemes
+                            Copyright © 2023 shapro - All Rights Reserved. Made by <span style="color:red"> rad.</span>
                         </p>
                     </div>
                 </div>
