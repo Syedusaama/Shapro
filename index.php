@@ -23,10 +23,12 @@
                         <p class="first-p">Aliquam malesuada bibendum arcu vitae elementum curabitur vitae ven.
                             Pellentesque pulvinar elementum habitant morbi tristique.</p>
                             </div>
+                            <div class="banner-sec-ul">
                             <ul class="fa-ul ">
                                 <li><span class="fa-li"><i class="fa-solid fa-check-circle icon-clr"></i></span><h2>Customer & Sales Growth Tracking</h2><p>Now manage your clients, business</p></li>
                                 <li><span class="fa-li"><i class="fa-solid fa-check-circle icon-clr"></i></span><h2>Create a social identity online</h2><p>We help build a strong presence</p></li>
                               </ul>
+                              </div>
                           <div class="right-btns">      
                         <a href="#" class="header-btn">Get Started</a>
                         <i class="fa-solid fa-circle-play ply-btn"><a href="#">Watch Video</a></i>
