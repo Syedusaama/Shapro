@@ -12,14 +12,14 @@
     <?php include("includes/header.php"); ?>
     <!-- main-banner -->
     
-    <section>
-        <div class="main-banner" style="background-image: url(assets/images/banner.png);">
+    <section class="main-banner" style="background-image: url(assets/images/banner.png);">
+        <div >
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-md-6">
                         <div>
                             <div class="sec-heading">
-                        <h2>Now Manage  Projects Marketing</h2>
+                        <h2>Now Manage Projects Marketing</h2>
                         <p class="first-p">Aliquam malesuada bibendum arcu vitae elementum curabitur vitae ven.
                             Pellentesque pulvinar elementum habitant morbi tristique.</p>
                             </div>
@@ -45,15 +45,17 @@
     <!-- main-banner -->
 
     <!-- links-banner -->
-    <div class="links">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <img src="assets/images/links.png" alt="">
+    <section class="links">
+        <div >
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <img src="assets/images/links.png" alt="">
+                    </div>
                 </div>
-    </div>
-    </div>
-    </div>
+            </div>
+        </div>
+    </section>
     <!-- links-banner -->
 
     <!-- sec-banner -->
