@@ -24,18 +24,18 @@
                             Pellentesque pulvinar elementum habitant morbi tristique.</p>
                             </div>
                             <div class="banner-sec-ul">
-                            <ul class="fa-ul ">
-                                <li><span class="fa-li"><i class="fa-solid fa-check-circle icon-clr"></i></span><h2>Customer & Sales Growth Tracking</h2><p>Now manage your clients, business</p></li>
-                                <li><span class="fa-li"><i class="fa-solid fa-check-circle icon-clr"></i></span><h2>Create a social identity online</h2><p>We help build a strong presence</p></li>
-                              </ul>
-                              </div>
-                          <div class="right-btns">      
-                        <a href="#" class="header-btn">Get Started</a>
-                        <i class="fa-solid fa-circle-play ply-btn"><a href="#">Watch Video</a></i>
+                                <ul class="fa-ul ">
+                                    <li><span class="fa-li"><i class="fa fa-check-circle icon-clr"></i></span><h2>Customer & Sales Growth Tracking</h2><p>Now manage your clients, business</p></li>
+                                    <li><span class="fa-li"><i class="fa fa-check-circle icon-clr"></i></span><h2>Create a social identity online</h2><p>We help build a strong presence</p></li>
+                                </ul>
+                            </div>
+                        <div class="right-btns">      
+                        <a href="#" class="main-btn">Get Started</a>
+                        <a href="#" class="ply-btn"><i class="fa fa-circle-play ">Watch Video</i></a>
                     </div>
                     </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 text-center ban-img">
                         <img src="assets/images/banner-right.png" alt="">
                     </div>
                 </div>
@@ -59,11 +59,11 @@
     <!-- links-banner -->
 
     <!-- sec-banner -->
-    <section>
-        <div class="sec-banner" style="background-image: url(assets/images/sec-banner.png);">
+    <section class="guess-what-marketing" style="background-image: url(assets/images/sec-banner.png);">
+        <div >
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-md-6">
+                    <div class="col-md-6 ban-img">
                         <img src="assets/images/agency-img.png" alt="">
                     </div>
                     <div class="col-md-6">
@@ -73,7 +73,7 @@
                         <h2>Guess What  Marketing Can  Achieve</h2>
                         <p>We develop the relationships that underpin the next phase in your organisation’s growth. We do this by discerning the people and that platforms where interests converge.</p>
                         </div>
-                        <a href="#" class="header-btn">Get Started</a>
+                        <a href="#" class="main-btn">Get Started</a>
                         </div>
                     
                     </div>
@@ -162,7 +162,7 @@
                 </li>
         </ul>
     </div>
-    <a href="#" class="header-btn">Get Started</a>
+    <a href="#" class="main-btn">Get Started</a>
 </div>
 </section>
     <!-- services -->
@@ -180,17 +180,17 @@
                         <li class="firstt">Research &amp; Sketch</li>
                         <li class="firstt">Security Interface</li>
                     </ul>
-                    <a href="#" class="header-btn">Get Started</a>    
+                    <a href="#" class="main-btn">Get Started</a>    
                 </div>
                 </div>
-                <div class="col-md-5">
+                <div class="col-md-5 ban-img">
                     <img src="assets/images/delivery-ser.png" alt="">
                 </div>
                 <div class="col-md-3">
                     <div class="delivery-right-div">
                 <div class="container">
                     <div class="delivery-service-box">
-                    <div class="row align-items-center">
+                    <div class="row align-items-center delivery-content">
                         <div class="col-md-2">
                             <img src="assets/images/interface.png" alt="">
                         </div>
@@ -202,7 +202,7 @@
                 </div>
                 <div class="container">
                 <div class="delivery-service-box">
-                    <div class="row align-items-center">
+                    <div class="row align-items-center delivery-content">
                         <div class="col-md-2">
                             <img src="assets/images/creative.png" alt="">
                         </div>
@@ -214,7 +214,7 @@
                 </div>
                 <div class="container">
                 <div class="delivery-service-box">
-                    <div class="row align-items-center">
+                    <div class="row align-items-center delivery-content">
                         <div class="col-md-2">
                             <img src="assets/images/business.png" alt="">
                         </div>
@@ -230,10 +230,7 @@
     </div>
 </section>
 
-       <!-- delivery-services -->
-
-
-
+    <!-- delivery-services -->
 
     <!-- work -->
 <section class="bg-work" style="background-image: url(assets/images/bg-work.png);">
@@ -274,7 +271,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 ban-img">
                 <img src="assets/images/work.png" alt="">
             </div>
             <div class="col-md-4">
@@ -284,7 +281,7 @@
                     <h2>Work Software With Betakit</h2>
                     <p>We develop the relationships that underpin the next phase in your organisation’s growth. We do this by discerning the people and that platforms where interests converge.</p>
                     </div> 
-                    <a href="#" class="header-btn">Get Started</a>
+                    <a href="#" class="main-btn">Get Started</a>
                 </div>
             </div>
         </div>
@@ -294,8 +291,8 @@
     <!-- work -->
 
     <!-- market-policy -->
-    <section>
-        <div class="sec-banner">
+    <section class="sec-banner">
+        <div >
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-md-6">
@@ -305,10 +302,10 @@
                         <h2>We adopt a Market Policy  to Create a Digital Seo</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit </p>
                         </div>
-                        <a href="#" class="header-btn">Get Started</a>
+                        <a href="#" class="main-btn">Get Started</a>
                     </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 ban-img">
                         <img src="assets/images/market-policy.png" alt="">
                     </div>
                 </div>
@@ -338,7 +335,7 @@
                         <div class="satisfied-right-cont">
                         <h2>A Satisfied Customer </h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud ectetur adipis.</p>
-                        <a href="#" class="header-btn">Get Started</a>
+                        <a href="#" class="main-btn">Get Started</a>
                     </div>
                     </div>
                     <div class="col-md-6">
@@ -530,13 +527,13 @@
         <div class="row align-items-center">
             <div class="col-md-6">
             <div class="digital-heading">
-                    <h2>Delivering Our Services</h2>
-                    <p>We develop the relationships that underpin the next phase in your organisation’s growth. We do this by discerning the people and that platforms where interests converge.</p>
+                    <h2>Inquire About our Web Based Digital Marketing Firm</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud ectetur adipis.</p>
                     <ul class="our-services">
-                        <li><i class="fa-solid fa-check"></i>Mectetur adipisicing elit, sed do eiusmod tempor</li>
-                        <li><i class="fa-solid fa-check"></i>Mectetur adipisicing elit, sed do eiusmod tempor</li>
+                        <li><i class="fa fa-check"></i>Mectetur adipisicing elit, sed do eiusmod tempor</li>
+                        <li><i class="fa fa-check"></i>Mectetur adipisicing elit, sed do eiusmod tempor</li>
                     </ul>
-                    <a href="#" class="header-btn">Get Started</a>    
+                    <a href="#" class="main-btn">Get Started</a>    
                 </div>        
             </div>
             <div class="col-md-6">
@@ -545,33 +542,36 @@
                         <img src="assets/images/pink-box.png" alt="">
                     </div>
             </div>
-            <div class="row align-items-center">
+            <div class="row align-items-center digital-row-padd">
                 <div class="col-md-2 progress-img">
                     <img src="assets/images/progress1.png" alt="">
                 </div>
                 <div class="col-md-10">
+                    <h5 class="percentage-h5">Latest Technology</h5>
                 <div class="animated-progress progress-blue">
                     <span data-progress="90"></span>
                 </div>
                 </div>
             </div>
-            <div class="row align-items-center progress-img">
-                <div class="col-md-2">
+            <div class="row align-items-center digital-row-padd">
+                <div class="col-md-2  progress-img">
                     <img src="assets/images/progress2.png" alt="">
                 </div>
                 <div class="col-md-10">
+                <h5 class="percentage-h5">Marketing Management</h5>
                 <div class="animated-progress progress-green">
-                    <span data-progress="60"></span>
+                    <span data-progress="90"></span>
                 </div>
                 </div>
             </div>
-            <div class="row align-items-center progress-img">
-                <div class="col-md-2">
+            <div class="row align-items-center digital-row-padd">
+                <div class="col-md-2  progress-img">
                     <img src="assets/images/progress3.png" alt="">
                 </div>
                 <div class="col-md-10">
+                <h5 class="percentage-h5">Digital Marketing</h5>
                 <div class="animated-progress progress-purple">
-                    <span data-progress="70"></span>
+                    <span data-progress="90"></span>
                 </div>
                 </div>
             </div>
@@ -608,8 +608,8 @@
                             <p>Create, keep, and send email templates online without any coding 
                             skills Make animated static website presentations </p>
                             <ul class="tabs-ul-01">
-                            <li><i class="fa-solid fa-circle-check"></i>Drag & Drop WYSIWYG Builder</li>
-                            <li><i class="fa-solid fa-circle-check"></i>Collaborate with Teammates</li>
+                            <li><i class="fa fa-circle-check"></i>Drag & Drop WYSIWYG Builder</li>
+                            <li><i class="fa fa-circle-check"></i>Collaborate with Teammates</li>
                              </ul>
                         </div>
                     </div>
@@ -624,8 +624,8 @@
                              <p>Create, keep, and send email templates online without any coding 
                             skills Make animated static website presentations </p> 
                             <ul class="tabs-ul-02">
-                            <li><i class="fa-solid fa-circle-check"></i>Drag & Drop WYSIWYG Builder</li>
-                            <li><i class="fa-solid fa-circle-check"></i>Collaborate with Teammates</li>
+                            <li><i class="fa fa-circle-check"></i>Drag & Drop WYSIWYG Builder</li>
+                            <li><i class="fa fa-circle-check"></i>Collaborate with Teammates</li>
                              </ul>
                         </div>
                     </div>
@@ -640,8 +640,152 @@
                              <p>Make animated static website presentations in a matter of minutes
                             website presentations in a matter of minutes.</p> 
                             <ul class="tabs-ul-03">
-                            <li><i class="fa-solid fa-circle-check"></i>Drag & Drop WYSIWYG Builder</li>
-                            <li><i class="fa-solid fa-circle-check"></i>Collaborate with Teammates</li>
+                            <li><i class="fa fa-circle-check"></i>Drag & Drop WYSIWYG Builder</li>
+                            <li><i class="fa fa-circle-check"></i>Collaborate with Teammates</li>
+                             </ul>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="project-item-box">
+                        <div class="project-item-img">
+                            <img src="assets/images/tabs-img.png" alt="">
+                        </div>
+                        <div class="project-item-body" style="background-color: #f3f2fc;">
+                            <h5>Powerfully Simple Email Template Builder</h5>
+                             <p>Build website templates online using the Bootstrap builder.Build 
+                            website templates online using the Bootstrap builder. </p> 
+                            <ul class="tabs-ul-04">
+                            <li><i class="fa fa-circle-check"></i>Drag & Drop WYSIWYG Builder</li>
+                            <li><i class="fa fa-circle-check"></i>Collaborate with Teammates</li>
+                             </ul>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="tabs-btn text-center">
+            <a href="#" class="main-btn">Load More</a>
+            </div>
+    </div>
+
+    <div class="box-rme">
+            <ul class="project-items">
+                <li>
+                    <div class="project-item-box">
+                        <div class="project-item-img">
+                            <img src="assets/images/tabs-img.png" alt="">
+                        </div>
+                        <div class="project-item-body" style="background-color: #e5f9f8;">
+                            <h5>Powerfully Simple Email  Template Builder</h5>
+                            <p>Create, keep, and send email templates online without any coding 
+                            skills Make animated static website presentations </p>
+                            <ul class="tabs-ul-01">
+                            <li><i class="fa fa-circle-check"></i>Drag & Drop WYSIWYG Builder</li>
+                            <li><i class="fa fa-circle-check"></i>Collaborate with Teammates</li>
+                             </ul>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="project-item-box">
+                        <div class="project-item-img">
+                            <img src="assets/images/tabs-img.png" alt="">
+                        </div>
+                        <div class="project-item-body" style="background-color: #fcfaee;">
+                            <h5>Website Builder for Animated Static Webpages</h5>
+                             <p>Create, keep, and send email templates online without any coding 
+                            skills Make animated static website presentations </p> 
+                            <ul class="tabs-ul-02">
+                            <li><i class="fa fa-circle-check"></i>Drag & Drop WYSIWYG Builder</li>
+                            <li><i class="fa fa-circle-check"></i>Collaborate with Teammates</li>
+                             </ul>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="project-item-box">
+                        <div class="project-item-img">
+                            <img src="assets/images/tabs-img.png" alt="">
+                        </div>
+                        <div class="project-item-body" style="background-color: #ffeaed;">
+                            <h5>Drag & Drop Bootstrap Template Builder</h5>
+                             <p>Make animated static website presentations in a matter of minutes
+                            website presentations in a matter of minutes.</p> 
+                            <ul class="tabs-ul-03">
+                            <li><i class="fa fa-circle-check"></i>Drag & Drop WYSIWYG Builder</li>
+                            <li><i class="fa fa-circle-check"></i>Collaborate with Teammates</li>
+                             </ul>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="project-item-box">
+                        <div class="project-item-img">
+                            <img src="assets/images/tabs-img.png" alt="">
+                        </div>
+                        <div class="project-item-body" style="background-color: #f3f2fc;">
+                            <h5>Powerfully Simple Email Template Builder</h5>
+                             <p>Build website templates online using the Bootstrap builder.Build 
+                            website templates online using the Bootstrap builder. </p> 
+                            <ul class="tabs-ul-04">
+                            <li><i class="fa fa-circle-check"></i>Drag & Drop WYSIWYG Builder</li>
+                            <li><i class="fa fa-circle-check"></i>Collaborate with Teammates</li>
+                             </ul>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="tabs-btn text-center">
+            <a href="#" class="main-btn">Load More</a>
+            </div>
+    </div>
+
+    <div class="box-credit ">
+            <ul class="project-items">
+                <li>
+                    <div class="project-item-box">
+                        <div class="project-item-img">
+                            <img src="assets/images/tabs-img.png" alt="">
+                        </div>
+                        <div class="project-item-body" style="background-color: #e5f9f8;">
+                            <h5>Powerfully Simple Email  Template Builder</h5>
+                            <p>Create, keep, and send email templates online without any coding 
+                            skills Make animated static website presentations </p>
+                            <ul class="tabs-ul-01">
+                            <li><i class="fa fa-circle-check"></i>Drag & Drop WYSIWYG Builder</li>
+                            <li><i class="fa fa-circle-check"></i>Collaborate with Teammates</li>
+                             </ul>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="project-item-box">
+                        <div class="project-item-img">
+                            <img src="assets/images/tabs-img.png" alt="">
+                        </div>
+                        <div class="project-item-body" style="background-color: #fcfaee;">
+                            <h5>Website Builder for Animated Static Webpages</h5>
+                             <p>Create, keep, and send email templates online without any coding 
+                            skills Make animated static website presentations </p> 
+                            <ul class="tabs-ul-02">
+                            <li><i class="fa fa-circle-check"></i>Drag & Drop WYSIWYG Builder</li>
+                            <li><i class="fa fa-circle-check"></i>Collaborate with Teammates</li>
+                             </ul>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="project-item-box">
+                        <div class="project-item-img">
+                            <img src="assets/images/tabs-img.png" alt="">
+                        </div>
+                        <div class="project-item-body" style="background-color: #ffeaed;">
+                            <h5>Drag & Drop Bootstrap Template Builder</h5>
+                             <p>Make animated static website presentations in a matter of minutes
+                            website presentations in a matter of minutes.</p> 
+                            <ul class="tabs-ul-03">
+                            <li><i class="fa fa-circle-check"></i>Drag & Drop WYSIWYG Builder</li>
+                            <li><i class="fa fa-circle-check"></i>Collaborate with Teammates</li>
                              </ul>
                         </div>
                     </div>
@@ -664,11 +808,11 @@
                 </li>
             </ul>
             <div class="tabs-btn text-center">
-            <a href="#" class="header-btn">Load More</a>
+            <a href="#" class="main-btn">Load More</a>
             </div>
     </div>
 
-    <div class="box-rme showfirst">
+    <div class="box-service">
             <ul class="project-items">
                 <li>
                     <div class="project-item-box">
@@ -736,151 +880,7 @@
                 </li>
             </ul>
             <div class="tabs-btn text-center">
-            <a href="#" class="header-btn">Load More</a>
-            </div>
-    </div>
-
-    <div class="box-credit showfirst">
-            <ul class="project-items">
-                <li>
-                    <div class="project-item-box">
-                        <div class="project-item-img">
-                            <img src="assets/images/tabs-img.png" alt="">
-                        </div>
-                        <div class="project-item-body" style="background-color: #e5f9f8;">
-                            <h5>Powerfully Simple Email  Template Builder</h5>
-                            <p>Create, keep, and send email templates online without any coding 
-                            skills Make animated static website presentations </p>
-                            <ul class="tabs-ul-01">
-                            <li><i class="fa-solid fa-circle-check"></i>Drag & Drop WYSIWYG Builder</li>
-                            <li><i class="fa-solid fa-circle-check"></i>Collaborate with Teammates</li>
-                             </ul>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="project-item-box">
-                        <div class="project-item-img">
-                            <img src="assets/images/tabs-img.png" alt="">
-                        </div>
-                        <div class="project-item-body" style="background-color: #fcfaee;">
-                            <h5>Website Builder for Animated Static Webpages</h5>
-                             <p>Create, keep, and send email templates online without any coding 
-                            skills Make animated static website presentations </p> 
-                            <ul class="tabs-ul-02">
-                            <li><i class="fa-solid fa-circle-check"></i>Drag & Drop WYSIWYG Builder</li>
-                            <li><i class="fa-solid fa-circle-check"></i>Collaborate with Teammates</li>
-                             </ul>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="project-item-box">
-                        <div class="project-item-img">
-                            <img src="assets/images/tabs-img.png" alt="">
-                        </div>
-                        <div class="project-item-body" style="background-color: #ffeaed;">
-                            <h5>Drag & Drop Bootstrap Template Builder</h5>
-                             <p>Make animated static website presentations in a matter of minutes
-                            website presentations in a matter of minutes.</p> 
-                            <ul class="tabs-ul-03">
-                            <li><i class="fa-solid fa-circle-check"></i>Drag & Drop WYSIWYG Builder</li>
-                            <li><i class="fa-solid fa-circle-check"></i>Collaborate with Teammates</li>
-                             </ul>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="project-item-box">
-                        <div class="project-item-img">
-                            <img src="assets/images/tabs-img.png" alt="">
-                        </div>
-                        <div class="project-item-body" style="background-color: #f3f2fc;">
-                            <h5>Powerfully Simple Email Template Builder</h5>
-                             <p>Build website templates online using the Bootstrap builder.Build 
-                            website templates online using the Bootstrap builder. </p> 
-                            <ul class="tabs-ul-04">
-                            <li><i class="fa-solid fa-circle-check"></i>Drag & Drop WYSIWYG Builder</li>
-                            <li><i class="fa-solid fa-circle-check"></i>Collaborate with Teammates</li>
-                             </ul>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-            <div class="tabs-btn text-center">
-            <a href="#" class="header-btn">Load More</a>
-            </div>
-    </div>
-
-    <div class="box-service showfirst">
-            <ul class="project-items">
-                <li>
-                    <div class="project-item-box">
-                        <div class="project-item-img">
-                            <img src="assets/images/tabs-img.png" alt="">
-                        </div>
-                        <div class="project-item-body" style="background-color: #e5f9f8;">
-                            <h5>Powerfully Simple Email  Template Builder</h5>
-                            <p>Create, keep, and send email templates online without any coding 
-                            skills Make animated static website presentations </p>
-                            <ul class="tabs-ul-01">
-                            <li><i class="fa-solid fa-circle-check"></i>Drag & Drop WYSIWYG Builder</li>
-                            <li><i class="fa-solid fa-circle-check"></i>Collaborate with Teammates</li>
-                             </ul>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="project-item-box">
-                        <div class="project-item-img">
-                            <img src="assets/images/tabs-img.png" alt="">
-                        </div>
-                        <div class="project-item-body" style="background-color: #fcfaee;">
-                            <h5>Website Builder for Animated Static Webpages</h5>
-                             <p>Create, keep, and send email templates online without any coding 
-                            skills Make animated static website presentations </p> 
-                            <ul class="tabs-ul-02">
-                            <li><i class="fa-solid fa-circle-check"></i>Drag & Drop WYSIWYG Builder</li>
-                            <li><i class="fa-solid fa-circle-check"></i>Collaborate with Teammates</li>
-                             </ul>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="project-item-box">
-                        <div class="project-item-img">
-                            <img src="assets/images/tabs-img.png" alt="">
-                        </div>
-                        <div class="project-item-body" style="background-color: #ffeaed;">
-                            <h5>Drag & Drop Bootstrap Template Builder</h5>
-                             <p>Make animated static website presentations in a matter of minutes
-                            website presentations in a matter of minutes.</p> 
-                            <ul class="tabs-ul-03">
-                            <li><i class="fa-solid fa-circle-check"></i>Drag & Drop WYSIWYG Builder</li>
-                            <li><i class="fa-solid fa-circle-check"></i>Collaborate with Teammates</li>
-                             </ul>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="project-item-box">
-                        <div class="project-item-img">
-                            <img src="assets/images/tabs-img.png" alt="">
-                        </div>
-                        <div class="project-item-body" style="background-color: #f3f2fc;">
-                            <h5>Powerfully Simple Email Template Builder</h5>
-                             <p>Build website templates online using the Bootstrap builder.Build 
-                            website templates online using the Bootstrap builder. </p> 
-                            <ul class="tabs-ul-04">
-                            <li><i class="fa-solid fa-circle-check"></i>Drag & Drop WYSIWYG Builder</li>
-                            <li><i class="fa-solid fa-circle-check"></i>Collaborate with Teammates</li>
-                             </ul>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-            <div class="tabs-btn text-center">
-            <a href="#" class="header-btn">Load More</a>
+            <a href="#" class="main-btn">Load More</a>
             </div>
     </div>
 </section>

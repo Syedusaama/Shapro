@@ -1,31 +1,6 @@
 /*Main Css */
 
 /* Main Banner CSS */
-
-.sec-heading h2{
-    font-size: 55px;
-    font-weight: bold;
-    color: #051133;
-}
-.sec-heading p{
-font-size: 18px;
-    font-weight: 400;
-    padding: 20px 0px;
-    line-height: 1.3;
-}
-.sec-heading .p-clr{
-    color: #f22f3b;
-}
-
-.mainBanner {
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    background-repeat: no-repeat;
-    display: flex;
-    align-items: center;
-    position: relative;
-}
 ::selection {
     background: #f22f3b;
     color: #fff;
@@ -120,9 +95,9 @@ input[type="submit"] {
     cursor: pointer;
 }
 
-a:hover {
+/* a:hover {
     color: #f22f3b !important;
-}
+} */
 
 span {
     display: inline-block;
@@ -399,7 +374,7 @@ header {
 
 .menu li:hover a,
 .menu li.active a {
-    color: rgb(240, 90, 35);
+    color: #f22f3b;
 }
 
 
@@ -459,21 +434,7 @@ ul.dropdown li a:hover {
     animation: btot 0.5s forwards;
     z-index: 9;
 }
-.header-btn{
-    background-color: #f22f3b;
-    padding: 15px 35px;
-    /* font-family: 'jost'; */
-    text-align: center;
-    transition: 0.5s;
-    color: #fff;
-    /* box-shadow: 0 0 20px #eee; */
-    border: 1px solid #f22f3b;
-    border-radius: 4px;
-}
-.header-btn:hover{
-    background-color: transparent;
-    color: #f22f3b;
-}
+
 
 /* main banner */
 
@@ -486,6 +447,24 @@ ul.dropdown li a:hover {
     padding-bottom: 80px;
     clip-path: polygon(0% 0%, 100% 0%, 100% 91%, 0% 100%);
 }
+
+.sec-heading h2{
+    font-size: 55px;
+    font-weight: bold;
+    color: #051133;
+}
+.sec-heading p{
+font-size: 18px;
+    font-weight: 400;
+    padding: 20px 0px;
+    line-height: 1.3;
+}
+.sec-heading .p-clr{
+    color: #f22f3b;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
 .first-left-cont h2{
     font-size: 65px;
     font-weight: bold;
@@ -503,15 +482,44 @@ ul.dropdown li a:hover {
     padding: 50px 0px;
     color: #5a5a5a;
 }
+
+.header-btn{
+    background-color: #f22f3b;
+    padding: 15px 35px;
+    /* font-family: 'jost'; */
+    text-align: center;
+    transition: 0.5s;
+    color: #fff;
+    /* box-shadow: 0 0 20px #eee; */
+    border: 1px solid #f22f3b;
+    border-radius: 4px;
+}
+.header-btn:hover{
+    background-color: transparent;
+    color: #f22f3b;
+}
+.main-btn{
+    background-color: #f22f3b;
+    padding: 15px 35px;
+    /* font-family: 'jost'; */
+    text-align: center;
+    transition: 0.5s;
+    color: #fff;
+    /* box-shadow: 0 0 20px #eee; */
+    border: 1px solid #f22f3b;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+.main-btn:hover{
+    background-color: transparent;
+    color: #f22f3b;
+}
 .banner-sec-ul h2 {
     font-size: 21px;
     font-weight: bold;
     color: #051133;
 }
-.ply-btn{
-    font-size: 50px;
-}
-.ply-btn a{
+.ply-btn {
     font-size: 20px;
     color: #000;
 }
@@ -560,13 +568,23 @@ color: #fff;
 }
 /* second sec */
 
+
+/* guess-what-marketing */
+
+.guess-what-marketing{
+    padding-bottom: 180px;
+}
+
+/* guess-what-marketing */
+
+
 /* services */
 .bg-services{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     padding: 170px 0px 50px 0px;
-    clip-path: polygon(0% 10%, 100% 0%, 100% 100%, 0% 100%);
+    clip-path: polygon(0% 7%, 100% 0%, 100% 100%, 0% 100%);
 }
 .serv-heading h2{
     font-size: 60px;
@@ -592,9 +610,15 @@ color: #fff;
     padding: 0 30px 40px;
     border-radius: 16px;
     overflow: hidden;
-    box-shadow: 0px 4px 15px 5px rgba(0,0,0,0.1);
+    cursor: pointer;
+    background-color: #fff;
+    transition: all ease-in-out 0.3s;
 }
-.service-item-box::before {
+.service-item-box:hover {
+    box-shadow: 0px 4px 15px 5px rgba(0,0,0,0.1);
+    transition: 0.6s;
+}
+/* .service-item-box::before {
     content: "";
     background-color: #ffffff;
     left: 0;
@@ -602,9 +626,8 @@ color: #fff;
     top: 0;
     z-index: 1;
     position: absolute;
-    /* opacity: 0.65; */
     bottom: 0;
-}
+} */
 .service-item-img {
     height: 250px;
     display: flex;
@@ -651,7 +674,7 @@ color: #fff;
 }
 ul.delivering-our-services li::before {
     content: "\f00c";
-    font-family: FontAwesome;
+    font-family: 'FONT AWESOME 5 PRO';
     display: inline-block;
     margin-left: calc( var(--icon-space) * -1 );
     width: var(--icon-space);
@@ -680,6 +703,8 @@ ul.delivering-our-services li::before {
 .bg-work{
     padding-top: 100px;
     padding-bottom: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .work-right-cont h2{
@@ -865,8 +890,8 @@ ul.delivering-our-services li::before {
     padding-bottom: 20px;
 }
 .firstt:before {
-    content: "\f058"; /* FontAwesome Unicode */
-    font-family: FontAwesome;
+    content: "\f058"; /* 'FONT AWESOME 5 PRO' Unicode */
+    font-family: 'FONT AWESOME 5 PRO';
     display: inline-block;
     margin-left: calc( var(--icon-space) * -1 );
     width: var(--icon-space);
@@ -894,12 +919,13 @@ ul.delivering-our-services li::before {
     padding-bottom: 20px;
 }
 .second:before {
-    content: "\f058"; /* FontAwesome Unicode */
-    font-family: FontAwesome;
+    content: "\f058"; /* 'FONT AWESOME 5 PRO' Unicode */
+    font-family: 'FONT AWESOME 5 PRO';
     display: inline-block;
     margin-left: calc( var(--icon-space) * -1 );
     width: var(--icon-space);
     color: #48cb30;
+    font-weight:bold;
 }
 .second-btn{
     background-color: #48cb30;
@@ -923,12 +949,13 @@ ul.delivering-our-services li::before {
     padding-bottom: 20px;
 }
 .third:before {
-    content: "\f058"; /* FontAwesome Unicode */
-    font-family: FontAwesome;
+    content: "\f058"; /* 'FONT AWESOME 5 PRO' Unicode */
+    font-family: 'FONT AWESOME 5 PRO';
     display: inline-block;
     margin-left: calc( var(--icon-space) * -1 );
     width: var(--icon-space);
     color: #f8ba28;
+    font-weight:bold;
 }
 .third-btn{
     background-color: #f8ba28;
@@ -961,12 +988,13 @@ ul.delivering-our-services li::before {
     padding-bottom: 20px;
 }
 .firstt:before {
-    content: "\f058"; /* FontAwesome Unicode */
-    font-family: FontAwesome;
+    content: "\f058"; /* 'FONT AWESOME 5 PRO' Unicode */
+    font-family: 'FONT AWESOME 5 PRO';
     display: inline-block;
     margin-left: calc( var(--icon-space) * -1 );
     width: var(--icon-space);
     color: #72bffd;
+    font-weight:bold;
 }
 .first-btn{
     background-color: #68bafd;
@@ -1023,8 +1051,8 @@ ul.delivering-our-services li::before {
     font-size: 17px;
 }
 .look-first:before {
-    content: "\f058"; /* FontAwesome Unicode */
-    font-family: FontAwesome;
+    content: "\f058"; /* 'FONT AWESOME 5 PRO' Unicode */
+    font-family: 'FONT AWESOME 5 PRO';
     display: inline-block;
     margin-left: calc( var(--icon-space) * -1 );
     width: var(--icon-space);
@@ -1051,15 +1079,15 @@ ul.delivering-our-services li::before {
     padding-bottom: 50px;
 }
 .digital-heading h2{
-    font-size: 55px;
+    font-size: 50px;
     font-weight: bold;
     color: #fff;
 }
 .digital-heading p{
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 400;
     padding: 20px 0px;
-    line-height: 1.3;
+    line-height: 1.5;
     color: #d9d9da;
 }   
 ul.our-services li i {
@@ -1102,6 +1130,14 @@ background-color: #fbc85a;
 .progress-img{
     text-align: right;
 }
+.digital-row-padd {
+    padding: 6px 0px;
+}
+.percentage-h5{
+    font-size: 18px;
+    color: #fff;
+    padding-bottom: 5px;
+}
 /* digtal */
 /* ----------------servicesTabs------------ */
 
@@ -1131,17 +1167,18 @@ background-color: #fbc85a;
     color: #000;
     font-size: 14px;
     font-weight: bold;
+    padding: 15px 35px;
+    border-radius: 4px;
+    border: 1px solid transparent;
 }
 
 .tabnav-projects .active a {
     background-color: #f22f3b;
-    padding: 15px 35px;
     text-align: center;
     transition: 0.5s;
     color: #fff;
     box-shadow: 0px 10px 15px 0px #ec315094;
-    border: 1px solid #f22f3b;
-    border-radius: 4px;
+    background: #f22f3b;
 }
 .project-items {
     font-size: 0;
@@ -1355,13 +1392,13 @@ ul.tabs-ul-04 i {
 }
 .news-left-cont h2{
     color: #262626;
-    font-size: 32px;
+    font-size: 35px;
     font-weight: bold;
     padding-bottom: 20px;
 }
 .news-right-cont h2{
     color: #262626;
-    font-size: 32px;
+    font-size: 35px;
     font-weight: bold;
     padding-bottom: 20px;
 }
@@ -1370,6 +1407,7 @@ ul.tabs-ul-04 i {
     font-size: 16px;
     font-weight: normal;
     padding-bottom: 30px;
+    line-height: 1.5;
 }
 .apple-logo{
     background-color: #000;
@@ -1700,3 +1738,154 @@ footer .widget h4 {
 }
 
 @media (max-width: 824px) {}
+@media (max-width: 767px) {
+
+    .sec-heading h2 {
+        font-size: 32px;
+        font-weight: bold;
+        color: #051133;
+    }
+    .main-btn{
+        font-size: 14px;
+        padding: 12px 20px;
+    }
+    .ban-img{
+        max-width: 90%;
+        margin: 0 auto;
+        padding-top: 30px;
+    }
+    .links {
+        padding: 70px 0px;
+    }
+    .guess-what-marketing {
+        padding-bottom: 70px;
+    }
+    .bg-services {
+        clip-path: polygon(0% 7%, 187% 0%, 100% 100%, 0% 100%);
+    }
+    .service-items {
+        padding-top: 30px;
+    }
+    .service-items>li {
+        width: 50%;
+        padding: 0px 8px;
+    }
+    .service-item-box {
+        padding: 0 15px 0px;
+    }
+    .service-item-img {
+        height: 180px;
+        width: 100px;
+        margin: 0 auto;
+    }
+    .service-item-body h5 {
+        font-size: 18px;
+    }
+    .service-item-body p {
+        height: 120px;
+        font-size: 14px;
+    }
+    .bg-delivery-service {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .delivery-content .col-md-2 {
+        width: 20%;
+    }
+    .delivery-content .col-md-9 {
+        width: 80%;
+    }
+    .delivery-right-div {
+        margin-left: 0px;
+        padding-top: 30px;
+    }
+    .bg-work{
+        text-align: center;
+        padding: 50px 0px 90px 0px;
+    }
+    .sec-banner {
+        padding-top: 0px;
+        padding-bottom: 70px;
+        text-align: center;
+    }
+    section.sec-banner div {
+        flex-direction: column-reverse;
+    }
+    .bg-satisfied {
+        padding-top: 60px;
+    }
+    .satisfied-video {
+        margin-bottom: -100px;
+    }
+    .satisfied-ban {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .satisfied-right-cont{
+        text-align: center;
+    }
+    .satisfied-right-cont h2 {
+        font-size: 32px;
+    }
+    .progress-bar {
+        width: 100%;
+        height: 192px;
+    }
+    .progress {
+        width: 103px;
+    }
+    .pricing-box {
+        padding-top: 30px;
+    }
+    .pricing-box-inner {
+        padding: 20px 0px;
+        width: 65%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .bg-pricing {
+        padding-top: 80px;
+        padding-bottom: 80px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .looking-for-services {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .looking-services-box {
+        width: 90%;
+        padding: 10px;
+        text-align: center;
+    }
+    .digital-row-padd .col-md-2 {
+        width: 20%;
+    }
+    .digital-row-padd .col-md-10 {
+        width: 80%;
+    }
+    .digital-heading h2 {
+        font-size: 32px;
+    }
+    .digital-marketing {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .project-items>li {
+        width: 100%;
+    }
+    .project-item-body {
+        padding: 20px;
+    }
+    .project-item-body h5 {
+        font-size: 28px;
+    }
+    .bg-servicesTabs{
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .bg-testimonials {
+        background-size: cover;
+        background-position: center;
+    }
+}
